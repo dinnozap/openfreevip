@@ -1,0 +1,81 @@
+# KingKits Configuration
+Op bypass: true
+MySQL:
+  Enabled: false
+  Host: localhost
+  Port: 3306
+  Username: root
+  Password: ''
+  Database: kingkits
+  Table prefix: kk_
+GUI:
+  Title: <menucolour>PvP Kits
+  Size: 36
+  Page button:
+    ID: 77
+    Data value: 0
+  Show on respawn: false
+PvP Worlds:
+- All
+Multiple world inventories plugin: Multiverse-Inventories
+Multi-inventories: false
+Enable kits command: true
+Enable create kits command: true
+Enable delete kits command: true
+Enable rename kits command: true
+Enable create user kits command: true
+Enable delete user kits command: true
+Enable rename user kits command: true
+Enable refill command: true
+Enable preview kit command: true
+Kit sign: '[Kit]'
+Kit list sign: '[KList]'
+Kit sign valid: '[&1Kit&0]'
+Kit sign invalid: '[&cKit&0]'
+Kit list sign valid: '[&1KList&0]'
+Refill sign: '[KRefill]'
+Refill sign valid: '[&1KRefill&0]'
+Kit cooldown enabled: true
+List kits on join: true
+Use permissions on join: true
+Use permissions for kit list: true
+Kit list mode: Text
+Sort kits alphabetically: true
+Remove items on leave: true
+Drop items on death: false
+Drop items: false
+Drop animations:
+- 281
+Allow picking up items: true
+Clear inventories on reload: true
+One kit per life: false
+Check for updates: true
+Automatically update: false
+Enable score: false
+Score chat prefix: '&6[&a<score>&6]'
+Score per kill: 2
+Max score: 2147483647
+Remove potion effects on leave: true
+Set compass target to nearest player: true
+Quick soup: true
+Quick soup heal: 2.5
+Requires kit to use refill: true
+Command to run when changing kits: ''
+Disable block placing and breaking: false
+Disable death messages: false
+Lock hunger level: true
+Hunger lock: 20
+Custom message: '&6You have chosen the kit &c<kit>&6.'
+Disable gamemode while using a kit: false
+Enable killstreaks: false
+Disable item breaking: true
+Kit menu on join: false
+Clear items on kit creation: true
+Kit particle effects: true
+Show kit preview: false
+Replace items when selecting a kit: true
+Drop items on full inventory: false
+Remove kit on death: true
+Decrease score on auto unlock: false
+Decrease score on death: false
+Commands to run on death: []

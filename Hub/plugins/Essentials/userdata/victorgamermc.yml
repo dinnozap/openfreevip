@@ -1,0 +1,20 @@
+uuid: 9c4f4eeb-9acd-34b3-a32d-dd2195be581a
+timestamps:
+  login: 1436374349524
+  logout: 1436374355829
+ipAddress: 31.39.246.152
+lastlocation:
+  world: world
+  x: 517.5
+  y: 4.0
+  z: 496.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 532.8835221533923
+  y: 6.5
+  z: 488.04286779733445
+  yaw: -146.44583
+  pitch: 8.245936
+socialspy: false

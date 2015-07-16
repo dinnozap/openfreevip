@@ -1,0 +1,34 @@
+uuid: 01385ec8-76e3-3ddc-be30-c321dd602eb3
+timestamps:
+  login: 1435703844853
+  logout: 1435704058317
+  lastteleport: 1435669743547
+  jail: 0
+ipAddress: 91.179.211.72
+lastlocation:
+  world: world
+  x: 513.5
+  y: 13.0
+  z: 467.5
+  yaw: 358.8851
+  pitch: 88.85812
+logoutlocation:
+  world: world
+  x: 547.7994866038799
+  y: 4.0
+  z: 513.3852972427376
+  yaw: -208.14581
+  pitch: 18.599997
+ban:
+  reason: 'Banni : je t''aime'
+  timeout: 0
+afk: false
+jailed: false
+homes:
+  home:
+    world: world
+    x: 841.4480497846388
+    y: 15.372279902057432
+    z: 732.1325100651546
+    yaw: 200.09344
+    pitch: 63.44999

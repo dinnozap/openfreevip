@@ -1,0 +1,60 @@
+uuid: 5525a7b1-1f10-3064-ae2d-96b7423b8774
+timestamps:
+  login: 1437043995625
+  lastteleport: 1437045038393
+  logout: 1437045123344
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 10191.699999988079
+  y: 67.86337570760135
+  z: 99767.69999998808
+  yaw: -68.49122
+  pitch: 36.0
+lastlocation:
+  world: world
+  x: 10582.123889312827
+  y: 67.0
+  z: 100553.06782058923
+  yaw: -23.33961
+  pitch: 14.400011
+afk: false
+powertools:
+  '346':
+  - tp JtaiRekt_OMG Garinoc
+  '101':
+  - warp gladiateur %p
+  '280':
+  - cast geyser
+  '8':
+  - cast geyser
+  '332':
+  - JtaiRekt_OMG cast switch
+  '294':
+  - cast zeus
+  '3':
+  - clear
+  '283':
+  - cast geyser
+  '12':
+  - cast leap
+  '401':
+  - cast leap
+  '5':
+  - FIREBALL
+godmode: false
+homes:
+  test:
+    world: world
+    x: 10260.700482391481
+    y: 63.20000004768379
+    z: 100028.2843398904
+    yaw: -155.3501
+    pitch: 35.54999
+  home:
+    world: world
+    x: 10672.881511795433
+    y: 66.91580962807615
+    z: 100642.99509291328
+    yaw: -324.69022
+    pitch: 14.250002

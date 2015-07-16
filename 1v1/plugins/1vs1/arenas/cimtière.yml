@@ -1,0 +1,94 @@
+enabled: true
+spawn1:
+  world: world
+  x: 1318.545036743525
+  y: 11.0
+  z: 145.72995865734123
+  yaw: 185.0839
+  pitch: 9.645604
+spawn2:
+  world: world
+  x: 1318.3842916765996
+  y: 3.0
+  z: 121.62544646052112
+  yaw: -346.9908
+  pitch: 2.822226
+prize:
+  economy:
+    enabled: false
+    amount: 50
+  items:
+    enabled: true
+    itemPrizes:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE_PICKAXE
+countdown:
+  beforeTeleport:
+    enabled: true
+    duration: 5
+    sound: true
+  beforeFight:
+    enabled: true
+    duration: 5
+    disableMoving: true
+    blindness: false
+    invincibility: true
+    sound: true
+points:
+  win: 2
+  lose: -1
+firework:
+  inArena: true
+  afterTeleport: true
+health: 20
+timeOut: 300
+rounds: 3
+playerItemDrop: false
+playerItemPickUp: false
+winAnnouncement: true
+commandsToRunAtStart:
+- ungod {PLAYER1}
+- ungod {PLAYER2}
+commandsToRunAtEnd:
+- give {WINNER} 367 1
+inventory:
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 32
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+        THORNS: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1

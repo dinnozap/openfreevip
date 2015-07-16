@@ -1,0 +1,21 @@
+uuid: cab67e98-0eee-3775-94ea-195c1ff14537
+timestamps:
+  login: 1436176554302
+  lastteleport: 1435688673100
+  logout: 1436176568316
+ipAddress: 85.203.122.116
+lastlocation:
+  world: world
+  x: 543.9836068338245
+  y: 39.0
+  z: 462.60366558624827
+  yaw: 12.763458
+  pitch: 90.0
+logoutlocation:
+  world: world
+  x: 543.3000000119209
+  y: 37.0
+  z: 463.30000001192093
+  yaw: -67.43098
+  pitch: 40.79999
+socialspy: false

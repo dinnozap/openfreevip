@@ -1,0 +1,35 @@
+uuid: 7ad565ce-ca30-3899-ade3-7f04fc3b406b
+timestamps:
+  login: 1436602069166
+  lastteleport: 1436602071205
+  logout: 1436602302255
+  kits:
+    tools: 1436359667923
+  mute: 0
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10316.848751555872
+  y: 69.0
+  z: 99970.19989213561
+  yaw: 105.2092
+  pitch: 10.3216505
+logoutlocation:
+  world: world
+  x: 16583.961177348505
+  y: 28.0
+  z: 100219.9520741094
+  yaw: 165.63179
+  pitch: 16.950018
+homes:
+  home:
+    world: world
+    x: 16587.36615234973
+    y: 28.0
+    z: 100225.93382807272
+    yaw: 173.43164
+    pitch: -1.2000033
+nickname: EnderWither976
+afk: false
+godmode: false
+muted: false

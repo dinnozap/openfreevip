@@ -1,0 +1,20 @@
+socialspy: false
+uuid: fda0206e-84ee-3a38-880a-646173bf8f8b
+timestamps:
+  login: 1436480516354
+  logout: 1436480517704
+ipAddress: 91.106.34.18
+lastlocation:
+  world: world
+  x: 526.5
+  y: 9.0
+  z: 485.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 526.5
+  y: 9.0
+  z: 485.5
+  yaw: 0.0
+  pitch: 0.0

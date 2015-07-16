@@ -1,0 +1,22 @@
+uuid: dc301a60-ea05-30c5-b0e1-3dd7649158b1
+timestamps:
+  login: 1436532278008
+  kits:
+    tools: 1436532308305
+  lastteleport: 1436532459941
+  logout: 1436532477751
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10309.935901900315
+  y: 69.0
+  z: 99966.73510892494
+  yaw: 186.31311
+  pitch: 9.840221
+logoutlocation:
+  world: world
+  x: 10207.680424807877
+  y: 86.0
+  z: 99900.4619171199
+  yaw: 190.89423
+  pitch: 19.871647

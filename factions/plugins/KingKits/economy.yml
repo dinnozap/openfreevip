@@ -1,0 +1,13 @@
+# KingKits Economy Configuration
+Use economy: false
+Enable cost per kit: false
+Enable cost per refill: false
+Cost per refill: 2.5
+Currency: dollars
+Message: '&a<money> <currency> was taken from your balance.'
+Enable money per kill: false
+Money per kill: 5.0
+Money per kill message: '&aYou received <money> <currency> for killing <target>.'
+Enable money per death: false
+Money per death: 5.0
+Money per death message: '&aYou lost <money> <currency> for being killed by <killer>.'

@@ -1,0 +1,19 @@
+uuid: 879893e8-caba-342c-aaf1-17d8d0a9280e
+timestamps:
+  login: 1436961936746
+  logout: 1436961956606
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 1285.5
+  y: 9.0
+  z: -138.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 1283.4722599211932
+  y: 4.0
+  z: -133.08337314579185
+  yaw: -8.004044
+  pitch: -15.8588705

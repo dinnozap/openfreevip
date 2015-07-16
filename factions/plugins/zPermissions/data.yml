@@ -1,0 +1,104 @@
+# DO NOT EDIT -- file is written to periodically!
+players:
+- name: Aqualex56
+  permissions:
+    essentials.build: true
+    essentials.gamemode: true
+    essentials.gm: true
+    essentialsbuild: true
+  metadata: {}
+- name: KwiZoX
+  permissions:
+    voxelsniper.*: true
+    voxelsniper.brush: true
+    voxelsniper.sniper: true
+  metadata: {}
+- name: ZectaFreez
+  permissions:
+    essentials.nick: true
+  metadata: {}
+groups:
+- name: ArchiModo
+  permissions:
+    broadcastit.use: true
+    build: true
+    bukkit.tp: true
+    chestcommands.open.example.yml: true
+    chestcommands.open.mini.yml: true
+    chestcommands.open.youtube.yml: true
+    essentials.build: true
+    essentials.day: true
+    essentials.kill: true
+    essentials.killall: true
+    essentials.killall.*: true
+    essentials.mute: true
+    essentials.night: true
+    essentials.time: true
+    essentials.time.*: true
+    essentials.tp: true
+    essentials.tphere: true
+    we: true
+    we.*: true
+    worldedit: true
+    worldedit.*: true
+  metadata:
+    prefix: '&e(AM)'
+  priority: 0
+  members:
+  - alessio
+  - ascwseplay
+  - dinnojona345
+  - gaming_974
+  - kerem4
+  - kwizox
+  - matoran8944
+  - nini71
+  - zectafreez
+  tempmembers: []
+- name: ArchiTect
+  permissions:
+    chestcommands.open.example.yml: true
+    chestcommands.open.mini.yml: true
+    essentials.build: true
+    worldedit.*: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: Architecte
+  permissions: {}
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: YouTube
+  permissions:
+    chestcommands.open.example.yml: true
+    chestcommands.open.mini.yml: true
+    chestcommands.open.youtube.yml: true
+    essentials.build: true
+    essentials.fly: false
+  metadata:
+    prefix: '&9(YT)'
+  priority: 0
+  members:
+  - gamerkills27
+  - noxeey_
+  tempmembers: []
+- name: default
+  permissions:
+    essentials.buils: true
+    shopkeeper.trade: false
+  metadata: {}
+  priority: 2
+  members:
+  - dinnojona345
+  - garinoc
+  - kerem4
+  - licorne23140
+  - matoran8944
+  - nini71
+  - pologan
+  - skyriesmc
+  - vico49
+  tempmembers: []

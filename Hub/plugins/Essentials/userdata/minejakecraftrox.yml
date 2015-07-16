@@ -1,0 +1,20 @@
+socialspy: false
+uuid: afbca7a2-2738-3323-b61f-479e06240cac
+timestamps:
+  login: 1436510725156
+  logout: 1436510753267
+ipAddress: 118.97.32.226
+lastlocation:
+  world: world
+  x: 531.5
+  y: 6.0
+  z: 486.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 531.5
+  y: 6.0
+  z: 486.5
+  yaw: 0.0
+  pitch: 0.0

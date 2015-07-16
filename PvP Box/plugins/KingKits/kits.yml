@@ -1,0 +1,159 @@
+# KingKits Kits Configuration.
+First run: false
+Jumper:
+  GUI Position: -1
+  Items:
+    Slot 0:
+      Type: STONE_SWORD
+      Amount: 1
+      Data: 0
+      Enchantments:
+        KNOCKBACK: 1
+    Slot 1:
+      Type: ENDER_PEARL
+      Amount: 1
+      Data: 0
+  Armour:
+    Leggings:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 1
+      Type: CHAINMAIL_LEGGINGS
+    Chestplate:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 1
+      Type: CHAINMAIL_CHESTPLATE
+    Boots:
+      Data: 0
+      Enchantments:
+        PROTECTION_FALL: 4
+        PROTECTION_ENVIRONMENTAL: 1
+      Type: CHAINMAIL_BOOTS
+    Helmet:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 1
+      Type: CHAINMAIL_HELMET
+  Description: []
+  Item breaking: true
+  Commands: []
+  Name: Jumper
+  Cost: 0.0
+  GUI Item:
+    Data: 0
+    Amount: 1
+    Type: DIAMOND_SWORD
+  Command alias: false
+  Max health: 20
+  Potion Effects:
+    Speed:
+      Duration: 9285
+      Level: 1
+  Cooldown: 0
+Archer:
+  GUI Position: -1
+  Items:
+    Slot 28:
+      Type: ARROW
+      Amount: 1
+      Data: 0
+    Slot 2:
+      Type: POTION
+      Amount: 1
+      Data: 8257
+    Slot 0:
+      Type: WOOD_SWORD
+      Amount: 1
+      Data: 0
+    Slot 1:
+      Type: BOW
+      Amount: 1
+      Data: 0
+      Enchantments:
+        ARROW_INFINITE: 1
+  Armour:
+    Leggings:
+      Data: 0
+      Enchantments:
+        PROTECTION_PROJECTILE: 2
+      Type: CHAINMAIL_LEGGINGS
+    Chestplate:
+      Data: 0
+      Enchantments:
+        PROTECTION_PROJECTILE: 2
+      Type: CHAINMAIL_CHESTPLATE
+    Boots:
+      Data: 0
+      Enchantments:
+        PROTECTION_PROJECTILE: 2
+      Type: CHAINMAIL_BOOTS
+    Helmet:
+      Data: 0
+      Enchantments:
+        PROTECTION_PROJECTILE: 2
+      Type: CHAINMAIL_HELMET
+  Description: []
+  Item breaking: true
+  Commands: []
+  Name: Archer
+  Cost: 0.0
+  GUI Item:
+    Data: 0
+    Amount: 1
+    Type: DIAMOND_SWORD
+  Command alias: false
+  Max health: 20
+  Potion Effects:
+    Speed:
+      Duration: 9963
+      Level: 2
+  Cooldown: 0
+Guerrier:
+  GUI Position: -1
+  Items:
+    Slot 3:
+      Type: BREAD
+      Amount: 64
+      Data: 0
+    Slot 2:
+      Type: POTION
+      Amount: 1
+      Data: 16453
+    Slot 0:
+      Type: IRON_SWORD
+      Amount: 1
+      Data: 6
+    Slot 1:
+      Type: POTION
+      Amount: 1
+      Data: 16453
+  Armour:
+    Leggings:
+      Data: 12
+      Type: IRON_LEGGINGS
+    Chestplate:
+      Data: 12
+      Type: IRON_CHESTPLATE
+    Boots:
+      Data: 12
+      Type: IRON_BOOTS
+    Helmet:
+      Data: 12
+      Type: IRON_HELMET
+  Description: []
+  Item breaking: true
+  Commands: []
+  Name: Guerrier
+  Cost: 0.0
+  GUI Item:
+    Data: 0
+    Amount: 1
+    Type: DIAMOND_SWORD
+  Command alias: false
+  Max health: 20
+  Potion Effects:
+    Slow:
+      Duration: 9991
+      Level: 1
+  Cooldown: 0

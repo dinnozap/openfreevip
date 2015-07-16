@@ -1,0 +1,29 @@
+uuid: 5ecc1ce9-8786-3ec2-a44a-998fef86990f
+timestamps:
+  login: 1436198341434
+  logout: 1436198361835
+  jail: 0
+  lastteleport: 1434638457058
+  kits:
+    firework: 1434638063498
+    color: 1434638045108
+    dtools: 1434638052114
+    notch: 1434638036900
+ipAddress: 90.26.167.193
+lastlocation:
+  world: world
+  x: 7.5
+  y: 122.0
+  z: -6.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 15.042146876582645
+  y: 29.0
+  z: -2.4647647464850717
+  yaw: -103.63185
+  pitch: 30.52616
+jailed: false
+afk: false
+socialspy: false

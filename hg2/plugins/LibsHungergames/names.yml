@@ -1,0 +1,83 @@
+Material-ID-or-Name-In-UpperCase: Name as you want it to display
+AIR: fist
+DAMAGE_ALL: Sharpness
+ARROW_FIRE: Flame
+ARROW_INFINITE: Infinite Arrows
+ARROW_DAMAGE: Power
+ARROW_KNOCKBACK: Punch
+DAMAGE_ARTHROPODS: Bane of Arthropods
+DAMAGE_UNDEAD: Smite
+LOOT_BONUS_MOBS: Looting
+LOOT_BONUS_BLOCKS: Fortune
+WATER_WORKER: Aqua Affinity
+OXYGEN: Respiration
+DIG_SPEED: Efficency
+PROTECTION_ENVIRONMENTAL: Protection
+PROTECTION_FALL: Feather Falling
+PROTECTION_EXPLOSIONS: Blast Protection
+PROTECTION_PROJECTILE: Projectile Protection
+PROTECTION_FIRE: Fire Protection
+Unlootable: Unlootable
+Undroppable: Undroppable
+DROPPED_ITEM: Dropped Item
+EXPERIENCE_ORB: Experience Orb
+LEASH_HITCH: Leash Hitch
+PAINTING: Painting
+ARROW: Arrow
+SNOWBALL: Snowball
+FIREBALL: Fireball
+SMALL_FIREBALL: Small Fireball
+ENDER_PEARL: Ender Pearl
+ENDER_SIGNAL: Ender Signal
+THROWN_EXP_BOTTLE: Thrown Exp Bottle
+ITEM_FRAME: Item Frame
+WITHER_SKULL: Wither Skull
+PRIMED_TNT: Primed Tnt
+FALLING_BLOCK: Falling Block
+FIREWORK: Firework
+MINECART_COMMAND: Minecart Command
+BOAT: Boat
+MINECART: Minecart
+MINECART_CHEST: Minecart Chest
+MINECART_FURNACE: Minecart Furnace
+MINECART_TNT: Minecart Tnt
+MINECART_HOPPER: Minecart Hopper
+MINECART_MOB_SPAWNER: Minecart Mob Spawner
+CREEPER: Creeper
+SKELETON: Skeleton
+SPIDER: Spider
+GIANT: Giant
+ZOMBIE: Zombie
+SLIME: Slime
+GHAST: Ghast
+PIG_ZOMBIE: Pig Zombie
+ENDERMAN: Enderman
+CAVE_SPIDER: Cave Spider
+SILVERFISH: Silverfish
+BLAZE: Blaze
+MAGMA_CUBE: Magma Cube
+ENDER_DRAGON: Ender Dragon
+WITHER: Wither
+BAT: Bat
+WITCH: Witch
+PIG: Pig
+SHEEP: Sheep
+COW: Cow
+CHICKEN: Chicken
+SQUID: Squid
+WOLF: Wolf
+MUSHROOM_COW: Mushroom Cow
+SNOWMAN: Snowman
+OCELOT: Ocelot
+IRON_GOLEM: Iron Golem
+HORSE: Horse
+VILLAGER: Villager
+ENDER_CRYSTAL: Ender Crystal
+SPLASH_POTION: Splash Potion
+EGG: Egg
+FISHING_HOOK: Fishing Hook
+LIGHTNING: Lightning
+WEATHER: Weather
+PLAYER: Player
+COMPLEX_PART: Complex Part
+UNKNOWN: Unknown

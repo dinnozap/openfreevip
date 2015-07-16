@@ -1,0 +1,122 @@
+Build:
+  CommandName: Build
+  EnableCommand: true
+  description: A command to toggle if the player should be able to build when he normally shouldn't
+BuyKit:
+  CommandName: BuyKit
+  EnableCommand: true
+  description: When mysql is enabled you can use this command to buy kits
+Chunk:
+  CommandName: Chunk
+  EnableCommand: true
+  aliases:
+  - stuck
+  - refresh
+  description: This command refreshes the chunk of the command user
+Creator:
+  CommandName: Creator
+  EnableCommand: true
+  aliases:
+  - download
+  description: View the author of this great plugin
+Feast:
+  CommandName: Feast
+  EnableCommand: true
+  description: Point your compass towards the feast
+ForceFeast:
+  CommandName: ForceFeast
+  EnableCommand: true
+  aliases:
+  - ffeast
+  description: Force a feast to generate at your feet
+ForceStart:
+  CommandName: ForceStart
+  EnableCommand: true
+  aliases:
+  - fstart
+  description: Change the time until the game starts
+GoTo:
+  CommandName: GoTo
+  EnableCommand: true
+  aliases:
+  - watch
+  description: A command for spectators to teleport to people
+Invis:
+  CommandName: Invis
+  EnableCommand: true
+  description: Used for toggling invisibility
+Kill:
+  CommandName: Kill
+  EnableCommand: true
+  description: Use /suicide instead to suicide
+Kit:
+  CommandName: Kit
+  EnableCommand: true
+  aliases:
+  - kits
+  description: Use this to select your kit or display them
+KitInfo:
+  CommandName: KitInfo
+  EnableCommand: true
+  description: View the information on a kit
+KitItems:
+  CommandName: KitItems
+  EnableCommand: true
+  description: View the items given with a kit
+KitMenu:
+  CommandName: KitMenu
+  EnableCommand: true
+  description: A command to toggle if the player should be able to build when he normally shouldn't
+Me:
+  CommandName: Me
+  EnableCommand: true
+  description: Act out a message
+Message:
+  CommandName: Message
+  EnableCommand: true
+  aliases:
+  - msg
+  - mail
+  - tell
+  - pm
+  - whisper
+  - w
+  - privatemessage
+  description: Message a player your secret plans
+Players:
+  CommandName: Players
+  EnableCommand: true
+  aliases:
+  - list
+  - who
+  - gamers
+  description: See the gamers and spectators online
+Reply:
+  CommandName: Reply
+  EnableCommand: true
+  aliases:
+  - r
+  - respond
+  description: Reply to a players private message
+Respawn:
+  CommandName: Respawn
+  EnableCommand: true
+  description: Respawn a player after they have died
+Ride:
+  CommandName: Ride
+  EnableCommand: true
+  description: Toggle the ability to ride on top of mobs and players
+Spawn:
+  CommandName: Spawn
+  EnableCommand: true
+  aliases:
+  - hgspawn
+  description: If spectating you can teleport back to spawn
+Suicide:
+  CommandName: Suicide
+  EnableCommand: true
+  description: Commit suicide to this cruel cruel world
+Time:
+  CommandName: Time
+  EnableCommand: true
+  description: View the current game time

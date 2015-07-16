@@ -1,0 +1,5 @@
+Time_In_Combat: 15
+Kill_On_Pvp_Log: true
+Ban_On_Pvp_Log: false
+Announce_On_PvP_Log: true
+Disable_Commands_In_PVP: true

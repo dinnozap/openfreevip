@@ -1,0 +1,6 @@
+muted: true
+timestamps:
+  mute: 0
+ban:
+  reason: 'Banni : Le marteau du bannissement a frappé !'
+  timeout: 0

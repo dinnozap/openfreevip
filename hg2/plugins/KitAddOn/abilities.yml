@@ -1,0 +1,48 @@
+Mariner:
+  boatSpeed: 0.5
+  BoatItemName: HMS Endeavour
+Achilles:
+  damageDivisor: 4
+  woodSwordDamage: 9
+Pirate:
+  canonItemName: Big Bertha
+  nauseaTime: 10
+  nauseaDamage: 3
+  fireballDamage: 8
+Champion:
+  speed: 1
+  fastDigging: 1
+  jump: 1
+  waterBreathing: 1
+  damageMultiplicator: 2.0
+Hulk:
+  cooldownMessage: '&9You can use this again in %s seconds!'
+  normalCooldown: 120
+  strengthTime: 10
+  strength: 0
+  hulkItemName: Hulk Potion
+Bulldozer:
+  slowness: 2
+  fastDigging: 1
+  strength: 0
+Anchor: {}
+TimeLord:
+  frozenTime: 5
+  FreezeMessage: '&aYou can''t move for %s seconds the time has just stopped!'
+  youStoppedTime: '&aYou''ve just stopped the time for %s seconds'
+  cooldownMessage: '&9You can use this again in %s seconds!'
+  normalCooldown: 20
+  dist: 6.0
+  WatchItemName: Stop Watch
+Gladiator:
+  freeSpaceAbove: '&9Not enought free space above you to engage an 1 on 1 battle,
+    try an other place.'
+  killerMessage: '&aYou''ve a victory against %s!'
+  invincibillityMessage: '&aYou have now %s seconds of invincibillity'
+  battleDuration: 60
+  witherEffectDuration: 30
+  invincibillity: 5
+  boxStartY: 40
+  gladiatorItemName: The Shadow Game
+Grappler:
+  HookItemName: Grappling Hook

@@ -1,0 +1,78 @@
+# PermissionsBukkit configuration file
+# 
+# A permission node is a string like 'permissions.build', usually starting
+# with the name of the plugin. Refer to a plugin's documentation for what
+# permissions it cares about. Each node should be followed by true to grant
+# that permission or false to revoke it, as in 'permissions.build: true'.
+# Some plugins provide permission nodes that map to a group of permissions -
+# for example, PermissionsBukkit has 'permissions.*', which automatically
+# grants all admin permissions. You can also specify false for permissions
+# of this type.
+# 
+# Users inherit permissions from the groups they are a part of. If a user is
+# not specified here, or does not have a 'groups' node, they will be in the
+# group 'default'. Permissions for individual users may also be specified by
+# using a 'permissions' node with a list of permission nodes, which will
+# override their group permissions. World permissions may be assigned to
+# users with a 'worlds:' entry.
+# 
+# Groups can be assigned to players and all their permissions will also be
+# assigned to those players. Groups can also inherit permissions from other
+# groups. Like user permissions, groups may override the permissions of their
+# parent group(s). Unlike users, groups do NOT automatically inherit from
+# default. World permissions may be assigned to groups with a 'worlds:' entry.
+users:
+  ConspiracyWizard:
+    permissions:
+      permissions.example: true
+    groups:
+    - admin
+  4441ea31-63b4-3a7d-99db-ed78c1cd31f1:
+    groups:
+    - admin
+    - user
+  18d677e9-e194-30be-8435-492ccaa7eb8c:
+    groups:
+    - admin
+  5525a7b1-1f10-3064-ae2d-96b7423b8774:
+    groups:
+    - admin
+  01385ec8-76e3-3ddc-be30-c321dd602eb3:
+    groups:
+    - admin
+groups:
+  default:
+    permissions:
+      permissions.build: false
+      kingkits.kit.use: false
+      kingkits.kit.sign.use: true
+      essentials.build.interact.323: true
+      essentials.build.interact.63: true
+      essentials.build.interact.68: true
+      essentials.build.interact.70: true
+      essentials.build.interact.261: true
+      essentials.build.interact.267: true
+      essentials.build.interact.268: true
+      essentials.build.interact.272: true
+      essentials.build.interact.402: true
+      kingkits.kits.archer: true
+      kingkits.kits.guerrier: true
+      kingkits.kits.vulcain: true
+      kingkits.kits.grandpere: true
+      kingkits.kits.cannonier: true
+  admin:
+    permissions:
+      permissions.*: true
+    inheritance:
+    - user
+  user:
+    permissions:
+      permissions.build: true
+    worlds:
+      creative:
+        coolplugin.item: true
+    inheritance:
+    - default
+messages:
+  build: '&cYou do not have permission to build here.'
+debug: false

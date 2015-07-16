@@ -1,0 +1,23 @@
+# This sends the players with the perm 'hungergames.respawn' back to spawn
+# Set it less then 0 to disable. Set to 300 for 5min
+RespawnDuration: -1
+# Does his kit items regenerate as well
+RespawnItems: true
+
+# This sends the players with the perm hungergamers.vip.rejoin alive when they join.
+# If they havn't joined yet. Set to 300 to enable. Set to 0 or less to disable
+JoinDuration: -1
+# Does his kit items regenerate as well
+JoinersItems: true
+
+CactusJuice: false
+CactusJuiceName: '&fCactus Juice'
+CactusJuiceRestores: 6
+
+ChocolateMilk: false
+ChocolateMilkName: '&fChocolate Milk'
+ChocolateMilkRestores: 6
+
+# Shall the feast chests be generated just like MCPVP
+# You can already change the type of material the feast looks like.
+McpvpFeast: false

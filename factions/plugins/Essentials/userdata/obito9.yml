@@ -1,0 +1,31 @@
+uuid: cb44d264-f9bc-3b04-a34a-09c07118a586
+timestamps:
+  login: 1436091471009
+  kits:
+    tools: 1436090931142
+  lastteleport: 1436091763097
+  logout: 1436092018686
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 9844.300000011921
+  y: 64.0
+  z: 99464.59433888429
+  yaw: -268.90082
+  pitch: -15.320917
+homes:
+  home:
+    world: world
+    x: 10041.845130989057
+    y: 55.0
+    z: 99588.63733384901
+    yaw: -103.00867
+    pitch: 32.550003
+afk: false
+logoutlocation:
+  world: world
+  x: 10137.7914032008
+  y: 76.0
+  z: 99724.34349672329
+  yaw: -52.608784
+  pitch: 4.3500085

@@ -1,0 +1,5 @@
+# KingKits Killstreak Configuration
+First run: false
+Killstreak 9001:
+- broadcast &c<player>&a's killstreak is over 9000!
+- msg <player> Well done!

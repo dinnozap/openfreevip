@@ -1,0 +1,20 @@
+socialspy: false
+uuid: acd02950-9646-39aa-80a8-0632592836d4
+timestamps:
+  login: 1436469702422
+  logout: 1436469729304
+ipAddress: 92.160.233.252
+lastlocation:
+  world: world
+  x: 517.5
+  y: 5.0
+  z: 499.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 539.0277564871103
+  y: 4.5
+  z: 485.545295390033
+  yaw: -352.65012
+  pitch: 2.0999753

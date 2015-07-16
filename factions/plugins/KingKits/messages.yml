@@ -1,0 +1,97 @@
+Prefix:
+  Plugin: '&6[&4KingKits&6] &a'
+Command:
+  General:
+    In-game: '&cYou must be a player to use that command!'
+    Error: '&cAn error occurred.'
+    No permission: '&4You do not have access to that command.'
+    Usage: '&cUsage: &4/%s'
+    Disabled: '&cThis command is disabled in the configuration.'
+    World: '&cYou cannot use this command in the world you are in.'
+    Not online: '%s does not exist or is not online.'
+  Create kit:
+    Illegal characters: '&6The kit name must only consist of letters, numbers and
+      underscores.'
+    Denied: '&cA plugin has not allowed you to create this kit.'
+    Empty inventory: '&cYou have nothing in your inventory!'
+    Overwrite: '&4%s &6has been overwritten.'
+    Created: '&4%s &6has been created.'
+    Global:
+      Description: '&cDescription: &4Create your own PvP kit with every item in your
+        inventory.'
+    User:
+      Description: '&cDescription: &4Create your own personal PvP kit with every item
+        in your inventory.'
+      Global kit exists: '&cA PvP kit already exists with that name!'
+      Maximum personal kits: '&cYou have reached the maximum number of personal kits
+        you can create.'
+  Delete kit:
+    Error: '&4%s&6''s deletion was unsuccessful.'
+    Deleted: '&4%s &6was successfully deleted.'
+    Player message: '&4%s &cdeleted the kit you were using!'
+    Global:
+      Non-existent: '&4That kit does not exist.'
+      Description: '&cDescription: &4Delete a PvP Kit.'
+    User:
+      Non-existent: '&4That user kit does not exist.'
+      Description: '&cDescription: &4Delete a personal PvP Kit.'
+  Kit:
+    List:
+      No permission: '&4You do not have permission to list the kits.'
+    Other player: '&6You set %s''s kit. This may not have been successful if you typed
+      an invalid kit name, if they already have a kit, if they do not have permission
+      to use that kit or they do not have enough money.'
+  Preview:
+    Open other: '&6You made &4%s &6open a kit preview for &c%s&6.'
+  Refill:
+    Bowl: '&cYou must have a bowl in your hand.'
+    Not enough money: '&aYou do not have enough money to refill your bowl(s).'
+    Full inventory: '&cYou have a full inventory!'
+  Rename kit:
+    Illegal characters: '&6The new kit name must only consist of letters, numbers
+      and underscores.'
+    Exists: '&c%s already exists.'
+    Renamed: '&6Successfully renamed %s to %s.'
+    Global:
+      Description: '&cDescription: &4Rename a PvP kit.'
+    User:
+      Description: '&cDescription: &4Rename a user PvP kit.'
+Compass:
+  Player: '&eYour compass is pointing to %s.'
+  Spawn: Your compass is pointing to spawn.
+General:
+  Kit list: '&6PvP Kits: &a%s'
+  Kit list title: '&aKits (%s):'
+  No kit selected: '&cYou have not chosen a kit.'
+  No kits: '&4There are no kits.'
+  No kits available: '&cNo kits available'
+  Item drop: '&cYou cannot drop this item whilst using a kit.'
+  Item pickup: '&cYou cannot drop this item whilst using a kit.'
+GUI:
+  Preview:
+    Title: '&c%s &7kit preview'
+    Back: '&bBack'
+Kit:
+  No permission: '&cYou do not have permission to use the kit &4%s&c.'
+  Delay: '&cYou must wait %s %s before using this kit again.'
+  Already chosen: '&6You have already chosen a kit!'
+  Non-existent: '&4%s &6does not exist.'
+  Not enough money: '&aYou do not have enough money to change kits.'
+  Unlocked: '&6Congratulations! You had enough points and unlocked &c%s&6!'
+Sign:
+  Create:
+    No permission: '&4You do not have access to create a KingKits %s sign.'
+    Second line empty: '&cPlease enter a kit name on the second line.'
+  General:
+    Incorrectly set up: '&cThat sign has incorrectly been set up.'
+  Use:
+    No permission: '&cYou do not have permission to use this sign.'
+Time:
+  Second: second
+  Seconds: seconds
+  Minute: minute
+  Minutes: minutes
+  Hour: hour
+  Hours: hours
+  Day: day
+  Days: days

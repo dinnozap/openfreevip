@@ -1,0 +1,16 @@
+# DO NOT EDIT -- file is written to periodically!
+players: []
+groups:
+- name: default
+  permissions:
+    kingkits.kit.sign.use: true
+    kingkits.kit.use: true
+    kingkits.kits.archer: true
+    kingkits.kits.guerrier: true
+    nofalldamage.*: true
+    nofalldamage.default: true
+  metadata: {}
+  priority: 0
+  members:
+  - ascwseplay
+  tempmembers: []

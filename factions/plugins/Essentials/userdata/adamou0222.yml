@@ -1,0 +1,25 @@
+uuid: a88fbff0-2c7b-3be9-872f-12e9eef5ffe3
+timestamps:
+  login: 1436113566961
+  logout: 1436114206408
+  lastteleport: 1436113849848
+  kits:
+    tools: 1436114022857
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10242.431684834151
+  y: 64.0
+  z: 99845.5214732018
+  yaw: 234.79134
+  pitch: 24.119709
+logoutlocation:
+  world: world
+  x: 10221.375988571526
+  y: 86.0
+  z: 99887.7261381837
+  yaw: 271.99146
+  pitch: -3.4802907
+ban:
+  reason: 'Banni : 5 h unsude desrv'
+  timeout: 0

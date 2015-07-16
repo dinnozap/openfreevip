@@ -1,0 +1,50 @@
+global:
+  enabled: true
+  messages:
+  - Construisez votre propre serveur a partir de la base de FreeVip http://bit.ly/1OaxELi
+servers:
+  rush:
+    messages:
+    - '&bVous aimez ce serveur ? Vous aimeriez avoir son code source pour avoir un
+      serveur déjà configuré modifiable a votre image ? http://bit.ly/1OaxELi'
+    prefix-enabled: true
+    prefix: '&6[FreeVip] &r'
+  mc5:
+    messages:
+    - '&bVous aimez ce serveur ? Vous aimeriez avoir son code source pour avoir un
+      serveur déjà configuré modifiable a votre image ? http://bit.ly/1OaxELi'
+    prefix-enabled: true
+    prefix: '&6[FreeVip] &r'
+  mc4:
+    messages:
+    - '&bVous aimez ce serveur ? Vous aimeriez avoir son code source pour avoir un
+      serveur déjà configuré modifiable a votre image ? http://bit.ly/1OaxELi'
+    prefix-enabled: true
+    prefix: '&6[FreeVip] &r'
+  mc3:
+    messages:
+    - '&bVous aimez ce serveur ? Vous aimeriez avoir son code source pour avoir un
+      serveur déjà configuré modifiable a votre image ? http://bit.ly/1OaxELi'
+    prefix-enabled: true
+    prefix: '&6[FreeVip] &r'
+  mc2:
+    messages:
+    - '&bVous aimez ce serveur ? Vous aimeriez avoir son code source pour avoir un
+      serveur déjà configuré modifiable a votre image ? http://bit.ly/1OaxELi'
+    prefix-enabled: true
+    prefix: '&6[FreeVip] &r'
+  mc1:
+    messages:
+    - '&bVous aimez ce serveur ? Vous aimeriez avoir son code source pour avoir un
+      serveur déjà configuré modifiable a votre image ? http://bit.ly/1OaxELi'
+    prefix-enabled: true
+    prefix: '&6[FreeVip] &r'
+  1v1:
+    messages:
+    - '&bVous aimez ce serveur ? Vous aimeriez avoir son code source pour avoir un
+      serveur déjà configuré modifiable a votre image ? http://bit.ly/1OaxELi'
+    prefix-enabled: true
+    prefix: '&6[FreeVip] &r'
+options:
+  broadcasts-enabled: true
+  interval: 250

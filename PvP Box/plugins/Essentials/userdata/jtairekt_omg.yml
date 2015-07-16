@@ -1,0 +1,21 @@
+uuid: 4441ea31-63b4-3a7d-99db-ed78c1cd31f1
+timestamps:
+  login: 1436472554894
+  logout: 1436472632578
+  lastteleport: 1436472558249
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 976.1374999880791
+  y: 155.0
+  z: 1328.4118495419643
+  yaw: 262.75046
+  pitch: 27.66096
+logoutlocation:
+  world: world
+  x: 980.6033396551836
+  y: 196.0
+  z: 1345.300000011921
+  yaw: 120.823746
+  pitch: 46.56964
+nickname: JtaiezavecNodus

@@ -1,0 +1,23 @@
+uuid: 69aed4c8-45db-35f6-a37b-7a4ea4b965eb
+timestamps:
+  login: 1437053690527
+  logout: 1437053708939
+ipAddress: 78.209.44.30
+lastlocation:
+  world: world
+  x: 524.0609171287742
+  y: 8.0
+  z: 496.5287206998866
+  yaw: 33.7889
+  pitch: 17.633148
+logoutlocation:
+  world: world
+  x: 532.6226281562815
+  y: 6.0
+  z: 510.21990239272037
+  yaw: -93.54146
+  pitch: 10.936002
+ban:
+  reason: Banni temporairement du serveur pour now.
+  timeout: 0
+socialspy: false

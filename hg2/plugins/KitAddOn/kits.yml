@@ -1,0 +1,58 @@
+BadKits:
+  # Remove the dash symbol to disable this kit
+  # Grappler
+Kits:
+  TimeLord:
+    Description: 'Clique droit et figes le temps !'
+    Free: true
+    Price: 0
+    Icon: WATCH 0 1
+    Items:
+      - 'WATCH 0 1 Name=Stop_Watch Unlootable 1'
+    Ability:
+      - TimeLord
+  Grappler:
+    Description: 'Avec ton grappin tu peux attraper tout ce qui bouge et le rattraper ! Tu peux même grappler sur les blocks !'
+    Free: true
+    Price: 0
+    Icon: LEASH 0 1
+    Items:
+      - 'LEASH 0 1 Name=Grappling_Hook Unlootable 1'
+    Ability:
+      - Grappler
+  Pirate:
+    Description: 'Tu as un bateau et un canon pour attaquer tes ennemis ! Attention par contre, la fumée de ton canon est très toxique !'
+    Free: true
+    Price: 0
+    Icon: FIREWORK_CHARGE 0 1
+    Items:
+      - 'FIREWORK_CHARGE 0 1 Name=Big_Bertha Unlootable 1'
+      - BOAT 0 1
+    Ability:
+      - Pirate
+  Hulk:
+    Description: 'Hulk a une potion de Force I. Tu peux utiliser la potion pendant 10 secondes et un cooldown de 2 minutes.'
+    Free: true
+    Price: 0
+    Icon: POTION 8201 1
+    Items:
+      - 'POTION 8201 1 Name=Hulk_Potion Unlootable 1'
+    Ability:
+      - Hulk
+  Achilles:
+    Description: 'Tu ne crains presque aucune épées, cependant attention aux épées en bois qui sont ta plus grande faiblesse ! '
+    Free: true
+    Price: 0
+    Icon: DIAMOND 0 1
+    Items:
+    Ability:
+      - Achilles      
+  Gladiator:
+    Description: 'Clique droit avec la cage et tu seras envoyé dans le ciel pour faire un 1v1 ! Très utile contres les teams.'
+    Free: true
+    Price: 0
+    Icon: IRON_FENCE 0 1
+    Items:
+      - 'IRON_FENCE 0 1 Name=The_Shadow_Game Unlootable 1'    
+    Ability:
+      - Gladiator       

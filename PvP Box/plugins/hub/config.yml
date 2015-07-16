@@ -1,0 +1,4 @@
+### Config of Bungee Hub ###
+
+#put the name of your lobby server as used in your bungeeconfig after server name (put it between '')
+server name: 'mc1'

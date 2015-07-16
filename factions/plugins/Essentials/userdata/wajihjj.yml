@@ -1,0 +1,24 @@
+uuid: ba95a5ba-e1b3-32d2-9ddf-2fa7c269ebd9
+timestamps:
+  login: 1436364141209
+  logout: 1436364275684
+  kits:
+    tools: 1436362638764
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10009.300000011921
+  y: 34.0
+  z: 99736.10643479327
+  yaw: -114.579124
+  pitch: -1.5455847
+logoutlocation:
+  world: world
+  x: 10019.133772193774
+  y: 35.24918707874468
+  z: 99730.58634002277
+  yaw: -293.28784
+  pitch: 8.331318
+ban:
+  reason: 'Banni : Tu a un cheat !'
+  timeout: 0

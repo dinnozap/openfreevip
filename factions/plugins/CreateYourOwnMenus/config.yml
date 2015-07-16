@@ -1,0 +1,10 @@
+## CreateYourOwnMenus configuration file
+##
+## whitelist-commands - If you specify a list of whitelisted commands, then only 
+## these commands can be used in menu scripts. All others will fail.
+##
+## blacklist-commands - If you specify a list of blacklisted commands, then none
+## of these commands can be used in menu scripts.
+---
+blacklist-commands:
+  - op

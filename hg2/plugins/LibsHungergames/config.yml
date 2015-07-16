@@ -1,0 +1,67 @@
+amountBorderClosesInPerSecond: 0.2
+borderSize: 500.0
+borderStartsClosingIn: 1200
+checkUpdates: true
+commandsToRunBeforeShutdown:
+- kick Notch get out of here notch!
+- kick MinecraftChick Yer banned
+commandToStopTheServerWith: stop
+damageBorderDeals: 1.0
+endDisabled: true
+fireSpreadPreGame: false
+forcedCords: true
+forceSpawnX: 0
+forceSpawnZ: 0
+gameShutdownDelay: 33
+heartsMushroomStewHeals: 6
+heightLimitChanged: true
+isKitSelectorSizeDynamic: true
+kickOnDeath: false
+kitSelectorBack:
+  ==: org.bukkit.inventory.ItemStack
+  type: SIGN
+kitSelectorEnabled: true
+kitSelectorForward:
+  ==: org.bukkit.inventory.ItemStack
+  type: SIGN
+kitSelectorIcon:
+  ==: org.bukkit.inventory.ItemStack
+  type: FEATHER
+kitSelectorInventorySize: 54
+maxHeightLimit: 128
+metricsEnabled: true
+minPlayersForGameStart: 2
+mobSpawnChance: 7
+mushroomStewEnabled: false
+mysqlEnabled: false
+netherDisabled: true
+playersFlyPreGame: true
+prefixWhenAlive: <%Name%> %Message%
+preventMovingFromSpawnUsingPotions: false
+roundedBorder: false
+scoreboardEnabled: true
+secondsToTeleportPlayerToSpawn: 180
+shortenedNames: true
+sortKitGuiByOwned: false
+spawnHeight: 5
+spawnProtectionRemoved: true
+spawnRadius: 10
+spectatingPrefix: <&7%Name%&r>(spectateur) %Message%
+spectatorItemBack:
+  ==: org.bukkit.inventory.ItemStack
+  type: SIGN
+spectatorItemForwards:
+  ==: org.bukkit.inventory.ItemStack
+  type: SIGN
+spectatorMenuEnabled: true
+spectatorsAllowedToJoinInProgressGames: true
+spectatorsChatHidden: true
+spectatorsVisibleToEachOther: true
+teleportToSpawnLocationPregame: false
+timeForInvincibility: 120
+timeGameIsSetToWhenEnabled: -300
+timeGameIsSetToWhenNotEnoughPlayers: -120
+timeOfDay: 0
+timesToCheckForValidSpawnPerPlayer: 100
+useOwnWorld: true
+wonBroadcastsDelay: 6

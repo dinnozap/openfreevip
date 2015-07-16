@@ -1,0 +1,277 @@
+# KingKits Kits Configuration.
+First run: false
+Cannonier:
+  Armour:
+    Leggings:
+      Data: 0
+      Enchantments:
+        PROTECTION_EXPLOSIONS: 2
+        DURABILITY: 3
+      Type: LEATHER_LEGGINGS
+      Dye: 5000268
+    Chestplate:
+      Data: 0
+      Enchantments:
+        PROTECTION_EXPLOSIONS: 2
+        DURABILITY: 3
+      Type: LEATHER_CHESTPLATE
+      Dye: 5000268
+    Boots:
+      Data: 0
+      Enchantments:
+        PROTECTION_EXPLOSIONS: 2
+        DURABILITY: 3
+      Type: LEATHER_BOOTS
+      Dye: 5000268
+    Helmet:
+      Data: 0
+      Enchantments:
+        PROTECTION_EXPLOSIONS: 2
+        DURABILITY: 3
+      Type: LEATHER_HELMET
+      Dye: 5000268
+  Items:
+    Slot 0:
+      Type: STONE_SWORD
+      Amount: 1
+      Data: 0
+      Enchantments:
+        DURABILITY: 3
+    Slot 1:
+      Type: FIREWORK_CHARGE
+      Name: Canon
+      Amount: 1
+      Data: 0
+  GUI Position: -1
+  Cost: 0.0
+  Name: Cannonier
+  Description: []
+  GUI Item:
+    Data: 0
+    Amount: 1
+    Type: DIAMOND_SWORD
+  Max health: 20
+  Command alias: false
+  Item breaking: true
+  Commands: []
+  Cooldown: 0
+Archer:
+  GUI Position: -1
+  Items:
+    Slot 28:
+      Type: ARROW
+      Amount: 1
+      Data: 0
+    Slot 0:
+      Type: WOOD_SWORD
+      Amount: 1
+      Data: 0
+      Enchantments:
+        DURABILITY: 3
+    Slot 1:
+      Type: BOW
+      Amount: 1
+      Data: 0
+      Enchantments:
+        ARROW_DAMAGE: 1
+        ARROW_INFINITE: 1
+        DURABILITY: 3
+  Armour:
+    Leggings:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+      Type: LEATHER_LEGGINGS
+      Dye: 10511680
+    Chestplate:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+      Type: LEATHER_CHESTPLATE
+      Dye: 10511680
+    Boots:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+      Type: LEATHER_BOOTS
+      Dye: 10511680
+    Helmet:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+      Type: LEATHER_HELMET
+      Dye: 10511680
+  Description: []
+  Item breaking: true
+  Commands: []
+  Name: Archer
+  Cost: 0.0
+  GUI Item:
+    Data: 0
+    Amount: 1
+    Type: DIAMOND_SWORD
+  Command alias: false
+  Max health: 20
+  Potion Effects:
+    Speed:
+      Duration: 9713
+      Level: 1
+  Cooldown: 0
+Guerrier:
+  GUI Position: -1
+  Items:
+    Slot 0:
+      Type: STONE_SWORD
+      Amount: 1
+      Data: 0
+      Enchantments:
+        DURABILITY: 3
+  Armour:
+    Leggings:
+      Data: 0
+      Enchantments:
+        DURABILITY: 3
+      Type: CHAINMAIL_LEGGINGS
+    Chestplate:
+      Data: 0
+      Enchantments:
+        DURABILITY: 3
+      Type: CHAINMAIL_CHESTPLATE
+    Boots:
+      Data: 0
+      Enchantments:
+        DURABILITY: 3
+      Type: CHAINMAIL_BOOTS
+    Helmet:
+      Data: 0
+      Enchantments:
+        DURABILITY: 3
+      Type: CHAINMAIL_HELMET
+  Description: []
+  Item breaking: true
+  Commands: []
+  Name: Guerrier
+  Cost: 0.0
+  GUI Item:
+    Data: 0
+    Amount: 1
+    Type: DIAMOND_SWORD
+  Command alias: false
+  Max health: 20
+  Potion Effects:
+    Increase Damage:
+      Duration: 9958
+      Level: 1
+    Slow:
+      Duration: 9871
+      Level: 1
+  Cooldown: 0
+Vulcain:
+  GUI Position: -1
+  Items:
+    Slot 0:
+      Type: GOLD_SWORD
+      Amount: 1
+      Data: 0
+      Enchantments:
+        FIRE_ASPECT: 2
+        DURABILITY: 3
+  Armour:
+    Leggings:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 3
+        DURABILITY: 3
+      Type: LEATHER_LEGGINGS
+      Dye: 14188339
+    Chestplate:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 3
+        DURABILITY: 3
+      Type: LEATHER_CHESTPLATE
+      Dye: 14188339
+    Boots:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 3
+        DURABILITY: 3
+      Type: LEATHER_BOOTS
+      Dye: 14188339
+    Helmet:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 3
+        DURABILITY: 3
+      Type: LEATHER_HELMET
+      Dye: 14188339
+  Description: []
+  Item breaking: true
+  Commands: []
+  Name: Vulcain
+  Cost: 0.0
+  GUI Item:
+    Data: 0
+    Amount: 1
+    Type: DIAMOND_SWORD
+  Command alias: false
+  Max health: 20
+  Potion Effects:
+    Fire Resistance:
+      Duration: 9804
+      Level: 1
+  Cooldown: 0
+GrandPere:
+  Armour:
+    Leggings:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+      Type: LEATHER_LEGGINGS
+      Dye: 10511680
+    Chestplate:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+      Type: LEATHER_CHESTPLATE
+      Dye: 10511680
+    Boots:
+      Data: 0
+      Enchantments:
+        PROTECTION_FALL: 2
+      Type: DIAMOND_BOOTS
+    Helmet:
+      Data: 0
+      Enchantments:
+        PROTECTION_ENVIRONMENTAL: 2
+        DURABILITY: 3
+      Type: LEATHER_HELMET
+      Dye: 10511680
+  Items:
+    Slot 0:
+      Type: WOOD_SWORD
+      Amount: 1
+      Data: 0
+      Enchantments:
+        DAMAGE_ALL: 1
+        DURABILITY: 3
+        KNOCKBACK: 2
+  GUI Position: -1
+  Cost: 0.0
+  Name: GrandPere
+  Description: []
+  GUI Item:
+    Data: 0
+    Amount: 1
+    Type: DIAMOND_SWORD
+  Max health: 20
+  Command alias: false
+  Item breaking: true
+  Commands: []
+  Cooldown: 0

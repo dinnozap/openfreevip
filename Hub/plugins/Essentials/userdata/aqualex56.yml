@@ -1,0 +1,27 @@
+uuid: acfb2488-ab2c-3585-9929-0f950e3bfc8d
+timestamps:
+  login: 1436514797566
+  logout: 1436514867083
+  mute: 0
+  lastteleport: 1435740285715
+ipAddress: 81.53.62.56
+lastlocation:
+  world: world
+  x: 536.7172663538462
+  y: 17.623297776111585
+  z: 473.8962899241493
+  yaw: 69.51282
+  pitch: 5.2499905
+logoutlocation:
+  world: world
+  x: 530.8566820721767
+  y: 13.971350218663307
+  z: 512.3632031664263
+  yaw: 61.865696
+  pitch: 35.699974
+afk: false
+muted: false
+socialspy: false
+ban:
+  reason: 'Banni : Je te faisais confiance...'
+  timeout: 0

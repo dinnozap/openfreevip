@@ -1,0 +1,32 @@
+uuid: 0c7302ad-16d2-3b3b-a33f-42be48d2e134
+timestamps:
+  login: 1436555883178
+  kits:
+    tools: 1436556836101
+  lastteleport: 1436556813970
+  logout: 1436556881485
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world_nether
+  x: 1276.7037551116955
+  y: 96.0
+  z: 12488.699999988079
+  yaw: 2.3999329
+  pitch: -19.350004
+afk: false
+nickname: Blanelis
+homes:
+  home:
+    world: world
+    x: 10207.5
+    y: 86.0
+    z: 99887.5
+    yaw: 304.55923
+    pitch: -7.9783697
+logoutlocation:
+  world: world
+  x: 10207.320332821697
+  y: 86.0
+  z: 99887.4742344995
+  yaw: 79.35001
+  pitch: 59.55

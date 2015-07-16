@@ -1,0 +1,16 @@
+blocks:
+- 68
+- 63
+language: en
+messageTag: '&2[ServerSigns]'
+messageColour: '&e'
+vault_grant: true
+permission_console_command_add: pex user <player> add <permission>
+permission_console_command_remove: pex user <player> remove <permission>
+must_be_sneaking_to_destroy: true
+show_funds_removed_message: true
+currency: dollars
+broadcastDevelopers: true
+automaticUpdateChecks: true
+disableConsoleCommandLogging: false
+allowLeftClicking: false

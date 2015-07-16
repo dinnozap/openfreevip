@@ -1,0 +1,262 @@
+
+menu-settings:
+  name: '&3             &fMenu Principal'
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'msp'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling; tell: '
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 119
+    left-click: true
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+serveur:
+  COMMAND: ''
+  NAME: '&6Free&eVip'
+  LORE:
+    - '&6Le fun n''a'
+    - '&6pas de prix' 
+  ID: diamond
+  POSITION-X: 5
+  POSITION-Y: 2
+warpfonda:
+  COMMAND: 'open: youtube.yml'
+  NAME: '&6Partenaires &fYou&4Tube'
+  LORE:
+    - ''
+    - '' 
+  ID: redstone_torch
+  POSITION-X: 4
+  POSITION-Y: 2
+warpregl:
+  COMMAND: ''
+  NAME: '&6Salle des règles '
+  LORE:
+    - '&6Du serveur'
+  ID: feather
+  POSITION-X: 6
+  POSITION-Y: 2
+
+remplissage:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 1
+remplissage2:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 2
+  POSITION-Y: 1
+remplissage3:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 1
+remplissage4:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 4
+  POSITION-Y: 1
+remplissage5:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 1
+remplissage6:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 6
+  POSITION-Y: 1
+remplissage7:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 1
+remplissage8:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 8
+  POSITION-Y: 1
+remplissage9:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 9
+  POSITION-Y: 1
+
+remplissagea:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 5
+remplissage2a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 2
+  POSITION-Y: 5
+remplissage3a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 5
+remplissage4a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 4
+  POSITION-Y: 5
+remplissage5a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 5
+remplissage6a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 6
+  POSITION-Y: 5
+remplissage7a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 5
+remplissage8a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 8
+  POSITION-Y: 5
+spawno:
+  COMMAND: 'spawn'
+  NAME: '&6Retournez au spawn'
+  LORE:
+  ID: nether_star
+  POSITION-X: 9
+  POSITION-Y: 5
+hgg:
+  COMMAND: 'open: mini.yml'
+  NAME: '&6Hungers Games'
+  LORE:
+    - 'Rejoignez nos puissants'
+    - 'serveurs Hungers Games'
+  ID: gold_axe
+  POSITION-X: 5
+  POSITION-Y: 4
+
+pvpbox:
+  COMMAND: 'server: mc4'
+  NAME: '&6Factions'
+  LORE:
+    - 'Rejoignez directement'
+    - 'notre serveur Factions'
+  ID: iron_chestplate
+  POSITION-X: 4
+  POSITION-Y: 4
+
+1v1:
+  COMMAND: 'server: 1v1'
+  NAME: '&6Arènes 1v1'
+  LORE:
+    - 'Rejoignez notre serveur 1v1'
+    - 'et battez-vous avec honneur'
+
+  ID: bow
+  POSITION-X: 6
+  POSITION-Y: 4
+1vdd1:
+  COMMAND: 'server: mc5'
+  NAME: '&6PvP box'
+  LORE:
+    - '&6/!\Beta!/!\'
+    - 'Rejoignez notre serveur PvP Box'
+    - 'et battez-vous !'
+
+  ID: head
+  POSITION-X: 7
+  POSITION-Y: 4
+

@@ -1,0 +1,229 @@
+
+menu-settings:
+  name: '&3     &fPartenaires  YouTube'
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'youtube'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling; tell: '
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 1
+    left-click: true
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+serveur:
+  COMMAND: ''
+  NAME: '&6Free&eVip'
+  LORE:
+    - '&6Liste des partenaire YouTube' 
+  ID: diamond
+  POSITION-X: 5
+  POSITION-Y: 2
+serveur1:
+  COMMAND: 'op: mail send dinnojona345 je voudrais passer partenaire'
+  NAME: '&6Free&eVip'
+  LORE:
+    - '&6{player} vous avez une chaine YouTube'
+    - '&6et vous souhaitez passer partenaire du serveur ?'
+    - '&6&lCliquez ici'
+  ID: torch
+  POSITION-X: 6
+  POSITION-Y: 2
+part1:
+  COMMAND: ''
+  NAME: '&6HashTag || MultiGaming'
+  LORE:
+    - ''
+  ID: head
+  POSITION-X: 1
+  POSITION-Y: 3
+part2:
+  COMMAND: ''
+  NAME: '&6VorTexCrafT'
+  LORE:
+    - ''
+  ID: head
+  POSITION-X: 2
+  POSITION-Y: 3
+
+remplissage:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 1
+remplissage2:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 2
+  POSITION-Y: 1
+remplissage3:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 1
+remplissage4:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 4
+  POSITION-Y: 1
+remplissage5:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 1
+remplissage6:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 6
+  POSITION-Y: 1
+remplissage7:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 1
+remplissage8:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 8
+  POSITION-Y: 1
+remplissage9:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 9
+  POSITION-Y: 1
+
+remplissagea:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 1
+  POSITION-Y: 5
+remplissage2a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 2
+  POSITION-Y: 5
+remplissage3a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 3
+  POSITION-Y: 5
+remplissage4a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 4
+  POSITION-Y: 5
+remplissage5a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 5
+  POSITION-Y: 5
+remplissage6a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 6
+  POSITION-Y: 5
+remplissage7a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 7
+  POSITION-Y: 5
+remplissage8a:
+  COMMAND: ''
+  NAME: '&00'
+  LORE:
+    - ''
+    - ''
+  ID: stained_glass_pane:15
+  POSITION-X: 8
+  POSITION-Y: 5
+spawno:
+  COMMAND: 'spawn'
+  NAME: '&6Retournez au spawn'
+  LORE:
+  ID: nether_star
+  POSITION-X: 9
+  POSITION-Y: 5
+

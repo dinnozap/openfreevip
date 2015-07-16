@@ -1,0 +1,68 @@
+groups:
+  VOTREPSEUDOMCICI:
+  - admin
+disabled_commands:
+- find
+player_limit: -1
+stats: a874526a-d5c7-4b74-ac86-76ebb594aa4d
+permissions:
+  default:
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+listeners:
+- max_players: 200
+  fallback_server: mc1
+  host: 0.0.0.0:25565
+  bind_local_address: true
+  ping_passthrough: false
+  tab_list: SERVER
+  default_server: mc1
+  tab_size: 60
+  force_default_server: true
+  motd: '&e[Free&6Vip&e]&r Les kits VIP gratuits !'
+  query_enabled: false
+  query_port: 25565
+  forced_hosts:
+    pvp.md-5.net: pvp
+timeout: 30000
+connection_throttle: 4000
+ip_forward: true
+online_mode: false
+servers:
+  mc1:
+    address: 127.0.0.1:25566
+    restricted: false
+    motd: '&e[Free&6Vip&e]&r Les kits VIP gratuits !'
+  mc2:
+    address: 127.0.0.1:25567
+    restricted: false
+    motd: '&a[Harmony-Hosting]Un serveur propulsé par bungeecord'
+  mc3:
+    address: 127.0.0.1:25570
+    restricted: false
+    motd: '&a[Harmony-Hosting]Un serveur propulsé parBungeecord'
+
+  mc4:
+    address: 127.0.0.1:25580
+    restricted: false
+    motd: '&a[Harmony-Hosting]Un serveur propulsé parBungeecord'
+
+  mc5:
+    address: 127.0.0.1:22290
+    restricted: false
+    motd: '&a[Harmony-Hosting]Un serveur propulsé parBungeecord'
+
+  rush:
+    address: 127.0.0.1:26677
+    restricted: false
+    motd: '&a[Harmony-Hosting]Un serveur propulsé parBungeecord'
+
+  1v1:
+    address: 127.0.0.1:15567
+    restricted: false
+    motd: '&a[Harmony-Hosting]Un serveur propulsé parBungeecord'
+

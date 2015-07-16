@@ -1,0 +1,74 @@
+Bombtastic:
+  maxTntDrop: 3
+  minTntDrop: 1
+  oneChanceInWhatOfDropping: 2
+Bourne:
+  bourneRange: 15
+  compassModifier: 10
+Butcher: {}
+Creeper:
+  baseExplosionStrength: 0.4
+  randomizedStrength: 3
+  randomizeExplosion: true
+Flower:
+  repairsEveryWhatSecond: 5
+Herobrine:
+  cooldownMessage: '&9You may not use that yet! Wait %s seconds!'
+  cooldownTime: 120
+  itemName: Herobrines Escape
+  noOneToRunFrom: '&9You have no one to run from!'
+  secondsToRun: 3
+Icicles:
+  chanceInOneOfFreezing: 4
+  cooldownTime: 20
+  crackString: '&b*crack*'
+  fireAndLavaThaws: true
+  frozenTime: 10
+  thawedOut: '&cYou thawed out'
+libraryaddict:
+  bookName: Explosive Reading
+  explosionSize: 1.5
+  grenadeTimer: 2.0
+Linkage:
+  brokeTeleporter: '&aYou have broken %s''s teleporter!'
+  hisTeleporterBroken: '&a%s has broken your teleporter!'
+  teleporterExploded: '&aYour teleporter was exploded!'
+  teleporterLinkEstablished: '&9Teleportation link established'
+  teleporterName: '&fTeleporter'
+  teleporterNoOtherSide: '&aThis teleporter has no other side!'
+  teleporterPlaceAnother: '&9Teleporter placed, place enough to establish a link'
+  teleporterTooManyPlaced: '&9Too many teleporters placed.'
+Miser: {}
+Ninja:
+  potionEffectsDuringDay:
+  - SPEED 0
+  potionEffectsDuringNight:
+  - NIGHT_VISION 0
+Permissive:
+  kitPermissions:
+  - KitName Permission Permission Permission
+  - NoCheatBypass nocheat.bypass
+PotionLover:
+  potionEffects:
+  - Ghost INVISIBILITY 2600 0
+Rapper:
+  hearingRange: 16
+  nauseaLength: 7
+Salamander: {}
+Surprise:
+  badKits:
+  - Surprise
+  messageOnGive: '&9You were given the kit %s!'
+  messageWhenNoKitFound: '&9Unable to find you a kit to play with!'
+  onlyKitsYouOwn: false
+Pussy:
+  timeToTransform: 5
+  transformedFromCat: '&9HISS!'
+  transformedIntoCat: '&9Meow!'
+Skinner:
+  chanceInOneOfSkinning: 3
+  doMessageForSkinned: true
+  skinName: Default
+  skinnedMessage: '&c%s has just skinned you! You are now known as %s!'
+  skinUsersOfKit: true
+Zombifier: {}

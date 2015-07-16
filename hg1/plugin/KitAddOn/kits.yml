@@ -1,0 +1,91 @@
+BadKits:
+  # Remove the dash symbol to disable this kit
+  # Grappler
+Kits:
+  Mariner:
+    Description: 'Haloa! You are a mariner, you''ve got a fast ship to explore the world s ocean''s ... Why not escape your enemies?'
+    Free: true
+    Price: 0
+    Icon: BOAT 0 1
+    Items:
+      - 'BOAT 0 1 Name=HMS_Endeavour Unlootable 1'
+    Ability:
+      - Mariner
+  TimeLord:
+    Description: 'Right click your watch to freeze time around you, trapping your enemies!'
+    Free: true
+    Price: 0
+    Icon: WATCH 0 1
+    Items:
+      - 'WATCH 0 1 Name=Stop_Watch Unlootable 1'
+    Ability:
+      - TimeLord
+  Grappler:
+    Description: 'Hook yourself onto terrain, mobs or players and pull yourself towards them'
+    Free: true
+    Price: 0
+    Icon: LEASH 0 1
+    Items:
+      - 'LEASH 0 1 Name=Grappling_Hook Unlootable 1'
+    Ability:
+      - Grappler
+  Pirate:
+    Description: 'You have a boat and a canon to attack your enemies . But be careful, the smoke from your canon is highly toxic.'
+    Free: true
+    Price: 0
+    Icon: FIREWORK_CHARGE 0 1
+    Items:
+      - 'FIREWORK_CHARGE 0 1 Name=Big_Bertha Unlootable 1'
+      - BOAT 0 1
+    Ability:
+      - Pirate
+  Anchor:
+    Description: 'Take no knockback and deal no knockback'
+    Free: true
+    Price: 0
+    Icon: ANVIL 0 1
+    Items:
+    Ability:
+      - Anchor
+  Hulk:
+    Description: 'The Hulk have Strength I potion. You can use the potion for 10 seconds. You''ll have a cooldown of 2 minutes'
+    Free: true
+    Price: 0
+    Icon: POTION 8201 1
+    Items:
+      - 'POTION 8201 1 Name=Hulk_Potion Unlootable 1'
+    Ability:
+      - Hulk
+  Bulldozer:
+    Description: 'You''re the ultimate defense! Nobody can get past you! You are a good digger, but you are quite heavy...'
+    Free: true
+    Price: 0
+    Icon: IRON_BLOCK 0 1
+    Items:
+    Ability:
+      - Bulldozer
+  Achilles:
+    Description: 'Fear nothing, you are a god and takes almost no damage! But be careful for your weakness, wooden sword is not good for you...'
+    Free: true
+    Price: 0
+    Icon: DIAMOND 0 1
+    Items:
+    Ability:
+      - Achilles
+  Champion:
+    Description: 'You run fast, jump high, you stay long under water, you are a real athlete you are a Champion! But be careful with injuries, all Champions fear damage'
+    Free: true
+    Price: 0
+    Icon: GOLD_NUGGET 0 1
+    Items:
+    Ability:
+      - Champion      
+  Gladiator:
+    Description: 'Challenge your opponents to The Shadow Game and fight them one on one'
+    Free: true
+    Price: 0
+    Icon: IRON_FENCE 0 1
+    Items:
+      - 'IRON_FENCE 0 1 Name=The_Shadow_Game Unlootable 1'    
+    Ability:
+      - Gladiator       

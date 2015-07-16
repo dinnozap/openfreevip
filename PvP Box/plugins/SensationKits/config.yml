@@ -1,0 +1,174 @@
+permissions-per-kit: false
+kits:
+  guerrier:
+    armour:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+    main:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16453
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16453
+    - ==: org.bukkit.inventory.ItemStack
+      type: BREAD
+      amount: 64
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+  archer:
+    armour:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+    main:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16453
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16453
+    - ==: org.bukkit.inventory.ItemStack
+      type: BREAD
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 64
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+  speedy:
+    armour:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+    main:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16453
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16386
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16386
+    - ==: org.bukkit.inventory.ItemStack
+      type: BREAD
+      amount: 64
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null

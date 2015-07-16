@@ -1,0 +1,20 @@
+socialspy: false
+uuid: ce295cab-9d43-30ee-b7f0-f24d60d11c0c
+timestamps:
+  login: 1436510842523
+  logout: 1436510843473
+ipAddress: 61.19.42.244
+lastlocation:
+  world: world
+  x: 534.5
+  y: 5.0
+  z: 502.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 526.5
+  y: 8.0
+  z: 493.5
+  yaw: 5.46167
+  pitch: 2.4994261

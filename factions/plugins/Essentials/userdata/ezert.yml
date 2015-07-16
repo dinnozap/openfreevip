@@ -1,0 +1,25 @@
+uuid: 276555c4-0939-3085-b892-31329c77ab2d
+timestamps:
+  login: 1436110527061
+  kits:
+    tools: 1436110537263
+  lastteleport: 1436110722228
+  logout: 1436110743384
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10243.452498086035
+  y: 63.0
+  z: 99907.95897574644
+  yaw: -145.58354
+  pitch: -34.73013
+logoutlocation:
+  world: world
+  x: 10207.648500895535
+  y: 86.0
+  z: 99887.57485031137
+  yaw: 268.99146
+  pitch: -1.0802907
+ban:
+  reason: 'Banni : 5 min tu aréte'
+  timeout: 0

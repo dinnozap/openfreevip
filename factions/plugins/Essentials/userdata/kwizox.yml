@@ -1,0 +1,33 @@
+uuid: b94643fd-ac50-3f1b-965c-ffda02c0e15d
+timestamps:
+  login: 1436564188422
+  logout: 1436564765923
+  lastteleport: 1436564201981
+  kits:
+    tools: 1436564247805
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10219.563633538042
+  y: 86.0
+  z: 99887.20391835272
+  yaw: 69.60547
+  pitch: 12.89331
+logoutlocation:
+  world: world
+  x: 10267.492875602016
+  y: 64.0
+  z: 99679.52418494406
+  yaw: 39.911243
+  pitch: -40.87568
+homes:
+  home:
+    world: world
+    x: 9821.431244377167
+    y: 60.0
+    z: 99444.94521022099
+    yaw: 272.12146
+    pitch: 26.653921
+afk: false
+nickname: KwiZoX
+godmode: false

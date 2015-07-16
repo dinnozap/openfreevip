@@ -1,0 +1,37 @@
+# DO NOT EDIT -- file is written to periodically!
+players: []
+groups:
+- name: ArchiModo
+  permissions:
+    build: true
+    bukkit.tp: true
+    essentials.build: true
+    essentials.day: true
+    essentials.gamemode: true
+    essentials.gm: true
+    essentials.mute: true
+    essentials.night: true
+    essentials.time: true
+    essentials.time.*: true
+    essentials.tp: true
+    essentials.tphere: true
+    we: true
+    we.*: true
+    worldedit: true
+    worldedit.*: true
+  metadata:
+    prefix: '&e(AM)'
+  priority: 0
+  members:
+  - aqualex56
+  - kwizox
+  - zectafreez
+  tempmembers: []
+- name: default
+  permissions:
+    1vs1.join: true
+    1vs1.leave: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []

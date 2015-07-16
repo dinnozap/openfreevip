@@ -1,0 +1,171 @@
+#!!! READ FIRST !!! READ FIRST !!!
+#
+#If the plugin doesn't work correctly, please make sure that you have installed all the libraries correctly (NON-cauldron users).
+#We INCLUDE all required libraries in our zip download file automatically - all you need to do is extract the zip & its contents to your plugin folder.
+#For CAULDRON users - there is a dedicated download available on our plugin page for you (don't worry about libraries).
+#
+#The plugin will automatically detect if you are missing libraries and notify you with this message:
+#
+#[ERROR] Failed to enable CommandAd. Could not find library: + library name
+#[ERROR] Please make sure that you downloaded and installed all dependencies.
+#
+# Don't FORGET to DEOP yourself when you test this plugin - OPs are IMMUNE by default & CHECK you downloaded the RIGHT version for your server.
+# You CAN use "careloadconf" on your server console to update this config file so you DON'T have to restart your server whenever you make changes.
+#
+#!!! READ FIRST !!! READ FIRST !!!
+
+#CommandAd Configuration File
+#===================================================================================================================================================================#
+
+#MOTDGD-MEMBER-ID
+#Login to/sign up for your MOTDgd account on our website (http://motdgd.com) and locate your member-id on the portal (click important details on the portal summary page).
+#Your motdgd id should be a number e.g. 1834 not your username!
+#This is VERY important - so MOTDgd/you can keep track of your ad impressions & earnings.
+motdgd-member-id: 2
+
+#REMINDER INTERVALS
+#===================================================================================================================================================================#
+#Reminders simply remind people to view ads on your server.
+#Reminders typically include "reminder-message" and "link-message" (see the messages section to customise them).
+
+#There are 3 types of reminder you can implement on your server:
+
+#REMINDER-DELAY
+#The amount of time between two reminder messages in MINUTES (these remind players to watch an ad if they haven't done so).
+#If you use our command "careloadconf" on the server console to reset your config file - it won't update THIS command (a server restart is needed).
+#Set this to "0" to disable this reminder.
+reminder-delay: 5
+
+#MESSAGES-BEFORE-REMINDER
+#The number of messages that should be sent in the game chat before the server issues a reminder to users who have not viewed ads.
+#You should think about the popularity of your server here, if the number you enter is too low you risk annoying users.
+#Set this to "0" to disable this reminder.
+messages-before-reminder: 20
+
+#BLOCK-REMINDER-AMOUNT
+#This ONLY applies if you used our custom command to stop users breaking blocks on join, and they haven't yet watched an ad (in order to break blocks).
+#The number specifies how many blocks they should attempt to break unsuccessfully before you remind them they need to watch an ad.
+#Set this to "0" to disable this reminder.
+blocksbreak-before-reminder: 5
+
+#TIP - In addition to the above reminders, users can also do /getadlink at any time if the ad link disappears from their chat (when not on a cooldown period).
+
+#MESSAGES
+#===================================================================================================================================================================#
+#You should put all your messages between quotes e.g. "my message here"
+#Colour codes are supported in all messages http://minecraft.gamepedia.com/Formatting_codes)
+#You can colour your messages using & or # and the appropriate number e.g. &2 is a colour code for Dark Green. 
+#Example: "&2 Hello and welcome to my server" will appear in Dark Green as "Hello and welcome to my server"
+
+#If you want to use the & or # characters as part of the actual text in your messages and NOT as colour codes, put "\\" before them.
+#Example: "&2 Welcome \\& have fun!" will appear in Dark Green as "Welcome & have fun!"
+
+
+#The message a player will see on join if they're not on cooldown.
+before-ad-message: "&2Welcome to the server, please watch this ad to support the &2community \\& get a reward."
+
+#The message that will open an advertisement when clicked - this will be shown on join and alongside all reminder messages you set.
+link-message: "&3Click here to watch an ad!"
+
+#The message a player will see when they have finished watching an ad if they're not on cooldown.
+after-ad-message: "Thanks for watching the ad, here's your reward!"
+
+#The reminder message sent to a player who has not yet watched an ad.
+#The delay of the reminder message is configurable in the reminders section.
+reminder-message: "Don't forget to watch the ad!"
+
+#This message only applies if you used our custom command to stop users breaking blocks on join, and they haven't yet watched an ad (in order to break blocks).
+#This message will be sent users when they try and break blocks unsuccessfully - you can specify how many blocks they have to try and break before it appears in the reminders section.
+block-reminder-message: "Don't forget to watch an ad to break blocks"
+
+#The message a player will see when they go onto a cooldown period from watching ads (a cooldown period means they don't benefit from watching your ads).
+#If you're using cooldown, the string <cooldown> will be automatically replaced with the correct cooldown duration.
+#NOTE: If you are not using a cooldown on your server, leave this message blank!
+advert-cooldown-message: "You are now on a cooldown of <cooldown> minutes."
+
+
+#===================================================================================================================================================================#
+#ADVERT-COOLDOWN
+#The amount of time in minutes a player will be on cooldown, after they watch an ad (a cooldown period means they don't benefit from watching your ads).
+#Cooldowns will still apply by default even if you restart the server (unless they expire or they're manually cleared).
+#If you use our command "careloadconf" on the server console to reset your config file - it won't update THIS command (a server restart is needed).
+#Put "0" to disable this, if you do, please leave the advert-cooldown-message (in the messages section) empty as well.
+advert-cooldown: 5
+
+#TIP - Cooldowns can be cleared manually by ops with in-game commands:
+#/clearadcooldown [username] to clear the cooldown of a specific player
+#/clearglobaladcooldown to clear the cooldown of all online players that are on cooldown.
+
+#TIP - The command "/cooldown" will allow your individual players to see how much time they have left on their cooldown periods.
+
+
+#RANDOM-COMMAND
+#If set to true, only one random command from the after-ad-command list will be executed, like a dice roll.
+#If set to false all the commands after the after-ad command list will be executed.
+random-command: false
+
+#COMMANDS
+#===================================================================================================================================================================#
+#All commands are dispatched by the console (you can use any custom/MC command). To specify a player use the "<player>" tag.
+#E.G. give <player> apple 1 to give one apple to a player that just joined.
+
+#It is possible to perform multiple commands, simply make a list, like these EXAMPLES:
+
+# EXAMPLE ONLY:
+#before-ad-command-with-cooldown:
+#  1: give <player> apple 1
+#  2: msg <player> Welcome to the server, watch an ad to get a diamond & break blocks!
+#  3: disableblockbreak <player>
+
+#TIP - IF you disable block breaking with our optional custom command - we HIGHLY recommend you do it on the "before-ad-command-with cooldown" list.
+
+# EXAMPLE ONLY:
+#after-ad-command-with-cooldown:
+#  1: give <player> diamond 1
+#  2: msg <player> Thanks for supporting our community, here's your diamond - you can now break blocks!
+#  3: enableblockbreak <player>
+
+
+#IMPORTANT tips:
+#Tip: Check all the commands you choose, run with your version of Minecraft e.g. "msg" isn't a command on 1.8 versions (1.8 uses "tell" instead).
+#Tip: If you're running Minecraft versions older than 1.8 then you may need to use item DEX numbers instead of item words e.g. 273 instead of stone_shovel.
+#Tip: Here is a useful link containing item names and DEX numbers - http://minecraft.gamepedia.com/Data_values/Item_IDs
+#Tip: If you use our custom break blocks command, and the user cannot break blocks after an ad - CHECK they aren't in the "spawn protection" area or disable this protection.
+#Tip: Make sure the commands are put after the list number(s) i.e. 1: give <player> diamond 1
+#Tip: You can add subsequent commands by adding more numbers on new lines (see our examples further up).
+
+
+#NOT AFFECTED BY COOLDOWN
+#The command(s) that will be performed when a player joins the server, ALWAYS regardless of whether they are on a cooldown or NOT.
+before-ad-command-without-cooldown:
+  1:
+
+#AFFECTED BY COOLDOWN
+#The command(s) that will be performed when a player joins the server, ONLY if they are NOT on a cooldown period. 
+#If the player is ON a cooldown these commands WON'T be performed on join.
+#If you choose to disable block breaking with our optional custom command (see examples up the page), we STRONGLY suggest you do that HERE.
+before-ad-command-with-cooldown:
+  1:
+  
+  
+#AFFECTED BY COOLDOWN 
+#The command(s) that will be performed when a player watches an ad (i.e. they stay on the ad page until the page timer runs out/ad finishes).
+#These commands WILL be affected by cooldown; if the player is on cooldown, these commands WILL NOT be performed again until their cooldown ends.
+after-ad-command:
+  1:
+ 
+
+#===================================================================================================================================================================#
+
+#REMEMBER you can use our "careloadconf" command to update this config file on your server console, without needing to restart your server.
+#DEOP yourself when testing - admins are immune by default.
+
+#If you don't know how to configure your plugin properly, please watch our demo video on our YouTube channel (https://www.youtube.com/watch?v=s49Q_iVQ1es)
+#Make sure that you have also read the README file. If you're still not able to configure the plugin, please create a support ticket on our member's area (http://motdgd.com)
+#For questions and help with MOTDgd, the plugin, and the services we provide please go to (http://motdgd.com/faqs/)
+
+#IMPORTANT NOTES
+#A video advert sometimes isn't available, due to fill rate fluctuation (video ad campaign availability in a particular country) - this changes throughout the year, sometimes your players will just see a loading screen (due to no video ad being available).
+#If a player can't see a video ad it's NOT broken, we will at LEAST try to show them a banner/remnant ad (classed as non-video on the member's portal), these pay you "something" rather than "nothing" - so don't panic about rewarding users who don't always get video ads.
+#If a user is using an "adblock" extension etc. - we won't show them an advert/reward them until they disable it.
+#Enjoy - MOTDgd started in July 2013, and we have a great track record and experience in the games industry, thanks for choosing us to support your Minecraft Server :)

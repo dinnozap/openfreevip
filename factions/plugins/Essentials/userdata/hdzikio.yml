@@ -1,0 +1,20 @@
+uuid: 38a4f071-4580-3ba6-8863-ebcc83a6a056
+timestamps:
+  login: 1436549919506
+  kits:
+    tools: 1436549935694
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10211.5
+  y: 86.0
+  z: 99887.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 10205.470700464612
+  y: 86.0
+  z: 99885.30000001192
+  yaw: 206.92249
+  pitch: 58.292274

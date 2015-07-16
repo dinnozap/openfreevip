@@ -1,0 +1,23 @@
+permission: ''
+world: world
+X: 9989
+Y: 5
+Z: 99931
+price: 0.0
+cooldown: 0
+globalCooldown: 0
+confirmation: false
+commands:
+- /archer
+- /warp spawn
+grantPermissions: []
+lastGlobalUse: 0
+lastUse: {}
+priceItems: []
+exp: 0
+pi_criteria:
+  enchants: false
+  name: false
+  lores: false
+  durability: false
+should_cancel_event: true

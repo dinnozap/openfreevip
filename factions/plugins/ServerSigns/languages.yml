@@ -1,0 +1,104 @@
+en:
+  rightclick_bind_command: Right click the sign to bind the command to it.
+  set_command: The command was added successfully.
+  rightclick_list: Right click any sign to list the commands on it.
+  rightclick_set_price: Right click the sign to set the price.
+  set_price: The price was added successfully.
+  rightclick_bind_permission: Right click the sign to set permissions.
+  set_permission: The permission was added successfully.
+  rightclick_set_cooldown: Right click any sign to set a cooldown
+  set_cooldown: The cooldown was added successfully.
+  rightclick_copy: Select a sign by rightclicking it.
+  rightclick_paste: Now right click another sign to paste.
+  rightclick_del_command: Right click any sign to delete the command.
+  del_command: The command was deleted successfully.
+  rightclick_del_permission: Right click the sign to remove permissions.
+  del_permission: The permission was deleted successfully.
+  commands_removed: All commands are removed from this sign.
+  edit_command: The command was edited successfully.
+  rightclick_reset_cooldown: Right click a sign to reset cooldown.
+  reset_cooldown: Cooldowns were reset.
+  no_number: This is not a number.
+  not_ready: The Sign is ready in <cooldown>.
+  line_not_found: The given line was not found.
+  not_enough_permissions: You don't have enough permissions.
+  not_enough_money: You don't have enough money.
+  cannot_destroy: You are not allowed to destroy this sign.
+  need_confirmation_cost: Sign costs <price>. /svs yes or click again.
+  need_confirmation: Confirm the sign with /svs yes or click again.
+  all_cooldowns_reset: All cooldowns were reset.
+  reload_success: ServerSigns was reloaded.
+  invalid_itemid: Invalid itemid.
+  priceitem_success: The price item was added successfully.
+  priceitem_bind: Right click any sign to set a price item.
+  not_enough_items: You require the following items to use this sign...
+  priceitem_remove: Right click any sign to remove price item.
+  priceitem_removed: Successfully removed price item from this sign.
+  xp_must_be_greater_than_zero: The EXP level cost must be greater than 0.
+  xpcost_bind: Right click any sign to set an EXP level cost.
+  set_xp: EXP level cost successfully applied to sign.
+  priceitemcriteria_boolean: Your arguments must be either *true* or *false*
+  not_enough_xp: You do not have enough EXP to use this sign.
+  funds_withdrawn: <currency><number> has been removed from your balance.
+  permissions_required: Unable to continue, Vault or config-defined permissions commands required for this feautre.
+  priceitemcriteria_bind: Right-click any sign to set set price item criteria.
+  priceitemcriteria_set: Successfully set price item criteria on this sign.
+  persistance_on: You have enabled copy persistance, disable this with '/svs copy persist'
+  persistance_off: You have disabled copy persistance.
+  must_sneak: You must be sneaking to destroy ServerSigns.
+  set_event_cancellation: Cancelling event triggers has been set to <boolean> for this sign
+  set_confirmation: Sign confirmation set to <boolean>
+  invalid_hand_item: You must be holding an item
+  invalid_index: No commands exist at the given index for this sign. Please try another sign
+de:
+  rightclick_bind_command: Befehl mit Rechtsklick auf Schild hinzufuegen.
+  set_command: Der Befehl wurde erfolgreich hinzugefuegt.
+  rightclick_list: Rechtsklicke ein Schild, um Befehle anzuzeigen.
+  rightclick_set_price: Rechtsklicke ein Schild, um den Preis zu setzen.
+  set_price: Der Preis wurde erfolgreich gesetzt.
+  rightclick_bind_permission: Rechtsklicke ein Schild, um die Rechte zu setzen.
+  set_permission: Die Rechte wurden erfolgreich gesetzt.
+  rightclick_set_cooldown: Rechtsklicke ein Schild, um cooldown zu setzen.
+  set_cooldown: Der cooldown wurde erfolgreich gesetzt.
+  rightclick_copy: Kopieren mit rechtsklick auf ein Schild.
+  rightclick_paste: Rechtsklick auf ein Schild zum einfuegen.
+  rightclick_del_command: Befehl mit Rechtsklick auf ein Schild loeschen.
+  del_command: Der Befehl wurde erfolgreich geloecht.
+  rightclick_del_permission: Rechtsklicke ein Schild, um die Rechte zu loeschen.
+  del_permission: Die Rechte wurden erfolgreich geloescht.
+  commands_removed: Alle Befehle wurden vom Schild geloescht.
+  edit_command: Der Befehl wurde erfolgreich editiert.
+  rightclick_reset_cooldown: Rechtsklick zum cooldown resetten.
+  reset_cooldown: Cooldowns wurden resettet.
+  no_number: Das ist keine Zahl.
+  not_ready: Das Schild ist in <cooldown> wieder bereit.
+  line_not_found: Die angegebene Zeile wurde nicht gefunden.
+  not_enough_permissions: Du hast nicht genuegend Rechte.
+  not_enough_money: Du hast nicht genuegend Geld.
+  cannot_destroy: Du darfst keine ServerSigns zerstoeren.
+  need_confirmation_cost: Kostet <price>. /svs yes oder nochmal klicken.
+  need_confirmation: /svs yes oder nochmal klicken.
+  all_cooldowns_reset: Alle cooldowns wurden resettet.
+  reload_success: ServerSigns wurde neu geladen.
+  invalid_itemid: Ungueltige Item ID.
+  priceitem_success: Der Preis des Items wurde erfolgreich hinzugefuegt.
+  priceitem_bind: Rechtsklick irgendein Schild um ein Preis Item zu setzen.
+  not_enough_items: Du brauchst die folgenden Gegenstaende um dieses Schild zu benutzen...
+  priceitem_remove: Rechts klicke ein Schild um das Preis Item zu entfernen.
+  priceitem_removed: Das Preis Item wurde erfolgreich von dem Schild entfernt.
+  xp_must_be_greater_than_zero: Der XP Preis muss groesser sein als 0.
+  xpcost_bind: Rechts klicke ein Schild um XP Kosten festzusetzen.
+  set_xp: XP Kosten erfolgreich an das Schild angebracht.
+  not_enough_xp: Du hast nicht genug XP um dieses Schild zu benutzen.
+  funds_withdrawn: <number> <currency> wurde von deinem Konto entfernt.
+  permissions_required: Es ist nicht moeglich fortzufahren, Vault oder config-definierte Commands werden benoetigt um dieses Feature zu benutzen
+  priceitemcriteria_boolean: Deine Argumente muessen *true* oder *false* sein
+  priceitemcriteria_bind: Rechts-Klick ein Schild um Preis Kriterium zu setzen.
+  priceitemcriteria_set: Erfolgreich Preis Kriterium gesetzt!
+  persistance_on: Du hast den staendingen Kopiermodus aktiviert, deaktiviere ihn mit "/svs copy persist"
+  persistance_off: Du hast den staendingen Kopiermodus deaktiviert
+  must_sneak: Du musst Shift halten um ServerSigns zu zerstoeren.
+  set_event_cancellation: Der Ereignis Ausloeser fuer dieses Schild wurde auf <boolean> gesetzt-
+  set_confirmation: Schild Bestaetigung wurde auf <boolean> gesetzt
+  invalid_hand_item: Du musst einen Gegenstand halten
+  invalid_index: Es wurden bisher keine Befehle in dem index fuer dieses Schild erstellt. Bitte versuch ein anderes Schild

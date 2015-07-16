@@ -1,0 +1,22 @@
+uuid: be302bfc-e6a2-3164-b94d-aa0d4e3b57dd
+timestamps:
+  login: 1436551728862
+  lastteleport: 1436551989272
+  kits:
+    tools: 1436551520887
+  logout: 1436552088314
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10207.40903102834
+  y: 86.0
+  z: 99874.14295457838
+  yaw: 162.95926
+  pitch: 12.721631
+logoutlocation:
+  world: world
+  x: 10206.429631903027
+  y: 66.0
+  z: 99860.03312768857
+  yaw: -192.4571
+  pitch: 39.525764

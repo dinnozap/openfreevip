@@ -1,0 +1,22 @@
+uuid: 83d9921b-ae03-3a6f-956f-49318cf55c90
+timestamps:
+  login: 1435949486693
+  logout: 1435949488993
+ipAddress: 88.165.167.240
+lastlocation:
+  world: world
+  x: 525.5
+  y: 13.0
+  z: 496.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 522.2674371625153
+  y: 6.5
+  z: 500.0786379821327
+  yaw: -0.5821228
+  pitch: 46.588734
+ban:
+  reason: 'Banni : Cheat'
+  timeout: 0

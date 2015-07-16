@@ -1,0 +1,9 @@
+track:
+  CommandName: track
+  EnableCommand: true
+body:
+  CommandName: body
+  EnableCommand: true
+bet:
+  CommandName: bet
+  EnableCommand: true

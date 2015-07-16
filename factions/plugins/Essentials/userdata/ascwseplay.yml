@@ -1,0 +1,54 @@
+uuid: 6753421a-5791-3310-a0eb-83e7b04af7d6
+timestamps:
+  login: 1436956589913
+  logout: 1436960355992
+  lastteleport: 1436959763431
+  kits:
+    tools: 1436273258768
+    color: 1436273266715
+    firework: 1436053219514
+    dtools: 1436273246144
+    notch: 1436053198349
+  mute: 0
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10192.116472770958
+  y: 64.20000004768366
+  z: 99879.94999998808
+  yaw: 12.940491
+  pitch: 25.896786
+logoutlocation:
+  world: world
+  x: 10247.419381295118
+  y: 66.0
+  z: 99896.70479360314
+  yaw: 248.9524
+  pitch: 33.782097
+socialspy: true
+afk: false
+godmode: true
+homes:
+  home:
+    world: world
+    x: 10423.055495567221
+    y: 5.0
+    z: 100868.06123240679
+    yaw: -87.813065
+    pitch: 50.75699
+  baseenvent:
+    world: world
+    x: 12744.97586537986
+    y: 73.7741686880474
+    z: 99950.64718585952
+    yaw: 276.26813
+    pitch: 16.965712
+  basesec:
+    world: world
+    x: 13063.537942116367
+    y: 7.0
+    z: 99934.30000001192
+    yaw: 225.73657
+    pitch: 41.448162
+muted: false
+nickname: §9AscwsePlay

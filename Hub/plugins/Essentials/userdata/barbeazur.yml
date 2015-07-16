@@ -1,0 +1,19 @@
+uuid: 1952af1b-02d0-3106-bebe-f193cb4e2eee
+timestamps:
+  login: 1435841743507
+  logout: 1435841807884
+ipAddress: 91.176.71.127
+lastlocation:
+  world: world
+  x: 521.5
+  y: 4.0
+  z: 484.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 529.6999999880791
+  y: 7.5
+  z: 496.3697342320155
+  yaw: -80.48831
+  pitch: 23.649427

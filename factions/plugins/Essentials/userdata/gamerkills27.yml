@@ -1,0 +1,31 @@
+uuid: 92b53c08-8436-3b8f-ad48-785ca59e640f
+timestamps:
+  login: 1436562009886
+  logout: 1436562017696
+  lastteleport: 1436546948461
+  kits:
+    tools: 1436433529495
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world_nether
+  x: 1223.5344023907396
+  y: 44.0
+  z: 12505.07939686883
+  yaw: 328.35022
+  pitch: 34.638424
+logoutlocation:
+  world: world
+  x: 10864.699999988079
+  y: 67.0
+  z: 99890.34991337589
+  yaw: -245.08374
+  pitch: -6.034961
+homes:
+  home:
+    world: world
+    x: 10896.5
+    y: 66.0
+    z: 99883.5
+    yaw: -273.9948
+    pitch: 27.872028
+afk: false

@@ -1,0 +1,25 @@
+uuid: b74f03cb-cc25-3d0c-a309-af260601e883
+timestamps:
+  login: 1437071934876
+  logout: 1437071941828
+  mute: 0
+ipAddress: 86.111.139.163
+lastlocation:
+  world: world
+  x: 541.5531098866632
+  y: 58.0
+  z: 465.9407491587428
+  yaw: -349.4839
+  pitch: 24.324953
+logoutlocation:
+  world: world
+  x: 508.69611747599157
+  y: 5.0
+  z: 515.6530429560485
+  yaw: 233.29898
+  pitch: 11.595564
+ban:
+  reason: Banni temporairement du serveur pour 1 seconde.
+  timeout: 0
+muted: false
+socialspy: false

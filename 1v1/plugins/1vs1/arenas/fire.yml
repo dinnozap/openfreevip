@@ -1,0 +1,104 @@
+enabled: true
+spawn1:
+  world: world
+  x: 1226.683974221458
+  y: 4.0
+  z: 145.69999998807907
+  yaw: -173.76219
+  pitch: 29.717257
+spawn2:
+  world: world
+  x: 1226.6024567975492
+  y: 4.0
+  z: 121.30000001192093
+  yaw: -3.5050051
+  pitch: 11.400127
+prize:
+  economy:
+    enabled: false
+    amount: 50
+  items:
+    enabled: true
+    itemPrizes:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE_PICKAXE
+countdown:
+  beforeTeleport:
+    enabled: true
+    duration: 5
+    sound: true
+  beforeFight:
+    enabled: true
+    duration: 5
+    disableMoving: true
+    blindness: false
+    invincibility: true
+    sound: true
+points:
+  win: 2
+  lose: -1
+firework:
+  inArena: true
+  afterTeleport: true
+health: 20
+timeOut: 300
+rounds: 3
+playerItemDrop: false
+playerItemPickUp: false
+winAnnouncement: true
+commandsToRunAtStart:
+- ungod {PLAYER1}
+- ungod {PLAYER2}
+commandsToRunAtEnd:
+- give {WINNER} 367 1
+inventory:
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET

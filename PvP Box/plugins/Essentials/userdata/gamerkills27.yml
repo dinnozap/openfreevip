@@ -1,0 +1,24 @@
+uuid: 92b53c08-8436-3b8f-ad48-785ca59e640f
+timestamps:
+  login: 1437068724274
+  logout: 1437071750621
+  lastteleport: 1436121875260
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 976.1374999880791
+  y: 155.0
+  z: 1328.426489580585
+  yaw: 275.88754
+  pitch: 40.18923
+logoutlocation:
+  world: world
+  x: 994.0061800702579
+  y: 151.0
+  z: 1332.025495213434
+  yaw: 264.53662
+  pitch: 25.426035
+afk: false
+ban:
+  reason: 'Banni : 1sec TG !'
+  timeout: 0

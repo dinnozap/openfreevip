@@ -1,0 +1,52 @@
+uuid: 4441ea31-63b4-3a7d-99db-ed78c1cd31f1
+timestamps:
+  login: 1436894857157
+  logout: 1436895209105
+  lastteleport: 1436895086369
+  kits:
+    notch: 1435916256274
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10118.865431072516
+  y: 65.0
+  z: 99777.04337688259
+  yaw: -126.14575
+  pitch: 33.71636
+logoutlocation:
+  world: world
+  x: 10233.724581993725
+  y: 63.0
+  z: 99921.72784802949
+  yaw: -175.51054
+  pitch: 26.00443
+powertools:
+  '332':
+  - FireBall
+  '8':
+  - cast geyser
+  '351':
+  - cast poison
+  '323':
+  - cast leap
+  '401':
+  - cast leap
+  '373':
+  - cast leap
+  '12':
+  - cast leap
+  '402':
+  - cast explode
+  '322':
+  - gamemode0
+powertoolsenabled: true
+afk: false
+homes:
+  home:
+    world: world
+    x: 10968.11768467368
+    y: 88.875
+    z: 100184.24589805029
+    yaw: -191.92032
+    pitch: 28.520313
+nickname: JtaiRekt_OMG

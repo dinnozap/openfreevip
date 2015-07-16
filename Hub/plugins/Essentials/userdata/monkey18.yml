@@ -1,0 +1,23 @@
+uuid: 6551dcdc-6c2b-3c1b-bf80-7064766cc610
+timestamps:
+  login: 1436034596652
+  logout: 1436034671999
+ipAddress: 77.152.65.143
+lastlocation:
+  world: world
+  x: 534.5
+  y: 6.0
+  z: 498.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 526.0829609436639
+  y: 8.0
+  z: 491.90318943689243
+  yaw: 282.2104
+  pitch: 46.799877
+ban:
+  reason: Banni temporairement du serveur pour 14 minutes 59 secondes.
+  timeout: 0
+socialspy: false

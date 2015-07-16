@@ -1,0 +1,10 @@
+'archidieu1':
+  command: /archidieu1
+  type: ALIAS
+  alias: //hsphere glass 2
+  permission-required: false
+
+
+  permission-required: true
+  permission-node: mycommand.cmd.dice
+  permission-error: "&a$player! , &2You can't use this command!"

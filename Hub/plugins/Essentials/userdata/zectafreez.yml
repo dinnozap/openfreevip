@@ -1,0 +1,28 @@
+uuid: c91231cc-1876-3966-9550-f0ceef6ee4b1
+timestamps:
+  login: 1437068610743
+  logout: 1437066476390
+  mute: 0
+  lastteleport: 1437065353397
+  jail: 0
+ipAddress: 109.133.138.114
+lastlocation:
+  world: world
+  x: 519.3697243439965
+  y: 4.31180829452112
+  z: 467.69999998807907
+  yaw: 357.67242
+  pitch: 10.213552
+logoutlocation:
+  world: world
+  x: 507.70669298956363
+  y: 4.0
+  z: 474.1386245109939
+  yaw: 305.40115
+  pitch: 2.0500028
+muted: false
+nickname: ZectaFreez
+godmode: true
+afk: false
+jailed: false
+socialspy: false

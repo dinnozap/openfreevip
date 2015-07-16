@@ -1,0 +1,36 @@
+uuid: 973b1c50-4b4f-3d53-9838-77da820a485c
+timestamps:
+  login: 1437071417233
+  kits:
+    tools: 1436958687241
+  lastteleport: 1437065996478
+  logout: 1437071418713
+  mute: 0
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10153.591856213525
+  y: 64.0
+  z: 99781.83278515039
+  yaw: 232.42987
+  pitch: 2.067847
+logoutlocation:
+  world: world
+  x: 10133.013965527774
+  y: 64.0
+  z: 99774.71437198976
+  yaw: 127.62636
+  pitch: 20.476805
+homes:
+  home:
+    world: world
+    x: 10230.657290467818
+    y: 97.0
+    z: 99893.71891862994
+    yaw: 111.83826
+    pitch: 25.784035
+ban:
+  reason: Banni temporairement du serveur pour 59 minutes 59 secondes.
+  timeout: 0
+afk: false
+muted: false

@@ -1,0 +1,20 @@
+socialspy: false
+uuid: edf5820e-0651-3486-af54-e5cbb4173372
+timestamps:
+  login: 1436510810489
+  logout: 1436510838471
+ipAddress: 183.224.1.55
+lastlocation:
+  world: world
+  x: 524.5
+  y: 4.0
+  z: 501.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 524.5
+  y: 4.0
+  z: 501.5
+  yaw: 0.0
+  pitch: 0.0

@@ -1,0 +1,9 @@
+first-item:
+  name: '&aMenu Principal'
+  id: 119
+  slot: 1
+  lore:
+    - '&7Ouvrez le menu principal !'
+  command: ''
+  cooldown-seconds: 5
+  permission: ''

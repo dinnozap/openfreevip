@@ -1,0 +1,240 @@
+chestLayersHeight: 3
+feastAdvertisements:
+  1185: '&cThe feast will begin at (%s, %s, %s) in %s'
+  1020: '&cThe feast will begin at (%s, %s, %s) in %s'
+  1021: '&cUse /feast to fix your compass on it!'
+  1190: '&cThe feast will begin at (%s, %s, %s) in %s'
+  1195: '&cThe feast will begin at (%s, %s, %s) in %s'
+  1199: '&cThe feast will begin at (%s, %s, %s) in %s'
+  1198: '&cThe feast will begin at (%s, %s, %s) in %s'
+  1197: '&cThe feast will begin at (%s, %s, %s) in %s'
+  1196: '&cThe feast will begin at (%s, %s, %s) in %s'
+  1200: '&cThe feast has begun!'
+  1081: '&cUse /feast to fix your compass on it!'
+  1170: '&cThe feast will begin at (%s, %s, %s) in %s'
+  1080: '&cThe feast will begin at (%s, %s, %s) in %s'
+  961: '&cUse /feast to fix your compass on it!'
+  901: '&cUse /feast to fix your compass on it!'
+  960: '&cThe feast will begin at (%s, %s, %s) in %s'
+  900: '&cThe feast will begin at (%s, %s, %s) in %s'
+feastEnabled: true
+feastFeastBlock:
+  ==: org.bukkit.inventory.ItemStack
+  type: QUARTZ_BLOCK
+  damage: 1
+feastGenerateTime: 1200
+feastGroundBlock:
+  ==: org.bukkit.inventory.ItemStack
+  type: QUARTZ_BLOCK
+feastInsides:
+  ==: org.bukkit.inventory.ItemStack
+  type: TNT
+feastMaxDistanceFromSpawn: 100
+feastPlatformGenerateTime: 900
+feastSize: 20
+pillarCorners:
+  ==: org.bukkit.inventory.ItemStack
+  type: QUARTZ_BLOCK
+  damage: 1
+pillarInsides:
+  ==: org.bukkit.inventory.ItemStack
+  type: GLASS
+pillarsEnabled: true
+randomItems:
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: DIAMOND
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 5.0
+  Min Items: 1
+  Max Items: 4
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: DIAMOND_BOOTS
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 5.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: DIAMOND_CHESTPLATE
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 5.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: DIAMOND_HELMET
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 5.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: DIAMOND_LEGGINGS
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 5.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: DIAMOND_SWORD
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 5.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: DIAMOND_PICKAXE
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 5.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: MUSHROOM_SOUP
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 7
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: LAVA_BUCKET
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: WATER_BUCKET
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: BUCKET
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: WEB
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 2
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: ENDER_PEARL
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 6
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: FLINT_AND_STEEL
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: GRILLED_PORK
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 20
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: COOKED_BEEF
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 20
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: COOKED_CHICKEN
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 20
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: BREAD
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 20
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: BOW
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: ARROW
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 20
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: TNT
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 20
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: EXP_BOTTLE
+  Item Data: 0
+  Chances in 100 of itemstack appearing: 20.0
+  Min Items: 1
+  Max Items: 10
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: POTION
+  Item Data: 16420
+  Chances in 100 of itemstack appearing: 10.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: POTION
+  Item Data: 16425
+  Chances in 100 of itemstack appearing: 10.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: POTION
+  Item Data: 16418
+  Chances in 100 of itemstack appearing: 10.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: POTION
+  Item Data: 16426
+  Chances in 100 of itemstack appearing: 10.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: POTION
+  Item Data: 16428
+  Chances in 100 of itemstack appearing: 10.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: POTION
+  Item Data: 16421
+  Chances in 100 of itemstack appearing: 10.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: POTION
+  Item Data: 16417
+  Chances in 100 of itemstack appearing: 10.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: POTION
+  Item Data: 16385
+  Chances in 100 of itemstack appearing: 10.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: POTION
+  Item Data: 16451
+  Chances in 100 of itemstack appearing: 10.0
+  Min Items: 1
+  Max Items: 1
+- ==: me.libraryaddict.Hungergames.Types.RandomItem
+  Item Type: POTION
+  Item Data: 16462
+  Chances in 100 of itemstack appearing: 1.0
+  Min Items: 1
+  Max Items: 1
+removeTrees: true
+scoreboardFeastStartingIn: '&6Feast in'
+scoreboardStrings:
+  1200: '&3Stage:&b Looting feast'
+  900: '&3Stage:&b Prefeast'

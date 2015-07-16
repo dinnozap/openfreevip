@@ -1,0 +1,53 @@
+uuid: 1cf50a95-460a-3b7b-b4ab-5585a7a6b3bd
+timestamps:
+  login: 1436132607715
+  kits:
+    tools: 1436051408038
+    color: 1436053214314
+    firework: 1436053226018
+    dtools: 1436112283275
+    notch: 1436053244423
+  logout: 1436133670572
+  lastteleport: 1436130133184
+  mute: 0
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10287.25456825572
+  y: 63.875
+  z: 99847.0073528465
+  yaw: 27.451294
+  pitch: 30.149956
+homes:
+  home:
+    world: world
+    x: 13067.630300417375
+    y: 18.0
+    z: 99935.78842791334
+    yaw: -180.95847
+    pitch: 68.07584
+  ap:
+    world: world
+    x: 10286.5182824067
+    y: 63.0
+    z: 99844.92263131359
+    yaw: 113.74121
+    pitch: 37.649952
+  pillage:
+    world: world
+    x: 10123.300000011921
+    y: 12.75074144955721
+    z: 100400.33079648331
+    yaw: 128.85422
+    pitch: 29.850002
+logoutlocation:
+  world: world
+  x: 10366.238669346032
+  y: 64.0
+  z: 99607.31753508165
+  yaw: 130.26096
+  pitch: 11.999985
+muted: false
+ban:
+  reason: 'Banni : Le marteau du bannissement a frappé !'
+  timeout: 0

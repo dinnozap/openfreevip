@@ -1,0 +1,2 @@
+[01.07.2015 21:40:30] Garinoc: Rule {ID=/op,Match='^/op'} caught message: /op
+[01.07.2015 21:40:35] Garinoc: Rule {ID=/op,Match='^/op'} caught message: /op g

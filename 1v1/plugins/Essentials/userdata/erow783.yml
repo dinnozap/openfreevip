@@ -1,0 +1,22 @@
+uuid: 97659a77-70d4-3e72-a331-84a23e1d196f
+timestamps:
+  login: 1435852185060
+  logout: 1435852563748
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 1246.4720132950306
+  y: 22.23935596545499
+  z: 185.75428365780093
+  yaw: 4.1843567
+  pitch: 30.300158
+logoutlocation:
+  world: world
+  x: 1231.1147630294033
+  y: 5.200000047683697
+  z: 215.95625199208996
+  yaw: 238.62646
+  pitch: 17.850027
+ban:
+  reason: Banni temporairement du serveur pour 50 minutes.
+  timeout: 1435855564851

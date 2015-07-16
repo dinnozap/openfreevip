@@ -1,0 +1,34 @@
+uuid: 5525a7b1-1f10-3064-ae2d-96b7423b8774
+timestamps:
+  login: 1437064721516
+  lastteleport: 1437033641682
+  logout: 1437064768472
+  jail: 0
+ipAddress: 91.178.45.151
+logoutlocation:
+  world: world
+  x: 527.6124652135251
+  y: 4.0
+  z: 496.6558268440615
+  yaw: -262.99374
+  pitch: 30.216702
+afk: false
+lastlocation:
+  world: world
+  x: 701.239470974403
+  y: -1159.9478983789138
+  z: 495.40775865898416
+  yaw: -299.49686
+  pitch: -77.399994
+godmode: true
+jailed: false
+ban:
+  reason: 'Banni : Le marteau du bannissement a frappé !'
+  timeout: 0
+nickname: skatova
+powertools:
+  '97':
+  - /sphere sand 5
+  '285':
+  - fireball
+socialspy: false

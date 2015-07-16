@@ -1,0 +1,20 @@
+socialspy: false
+uuid: 879893e8-caba-342c-aaf1-17d8d0a9280e
+timestamps:
+  login: 1436961970234
+  logout: 1436961994152
+ipAddress: 80.236.24.119
+lastlocation:
+  world: world
+  x: 520.5
+  y: 3.0
+  z: 492.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 524.5369788585407
+  y: 8.0
+  z: 495.14610168775016
+  yaw: 176.16171
+  pitch: -8.300575

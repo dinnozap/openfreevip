@@ -1,0 +1,23 @@
+uuid: 35153ca7-d5f4-3d03-a0ed-0c571e438aaf
+timestamps:
+  login: 1436135279567
+  logout: 1436135288719
+ipAddress: 94.121.171.125
+lastlocation:
+  world: world
+  x: 531.5
+  y: 6.0
+  z: 501.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 523.7322801062039
+  y: 3.0
+  z: 472.3449402251281
+  yaw: -281.63916
+  pitch: -0.60005814
+ban:
+  reason: 'Banni : Le marteau du bannissement a frappé !'
+  timeout: 0
+socialspy: false

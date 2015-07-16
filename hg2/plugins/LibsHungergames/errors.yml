@@ -1,0 +1,65 @@
+abilityAlreadyExists: '[Hungergames] Ability %s already exists!'
+abilityMissingConfigValue: '[Hungergames] Added ability ''%s'' missing config value
+  ''%s'''
+addedMissingConfigValue: '[Hungergames] Added missing config value ''%s'' for config
+  ''%s'''
+changedWorldHeight: '[Hungergames] Changed the worlds height to %s'
+chunksGenerated: '[Hungergames] Generated %s chunks'
+creatingConfigFile: '[Hungergames] Creating config file %s.yml'
+dependencyNotFound: '[Hungergames] Dependency %s not found'
+disabledEnd: '[Hungergames] Disabled the end'
+disabledNether: '[Hungergames] Disabled the nether'
+disabledSpawnRadius: '[Hungergames] Changed spawn radius to 0'
+errorAbilityDoesntExist: '[Hungergames] %s''s kit attempted to use the ability %s
+  which does not exist'
+errorWhenCheckingForUpdate: '[Hungergames] Error while checking for a update - %s'
+errorWhileLoadingAbility: '[Hungergames] Error while loading ability %s - %s'
+errorWhileLoadingCommand: '[Hungergames] Error while loading command %s - %s'
+errorWhileLoadingConfig: '[Hungergames] Error while loading config %s.yml - %s'
+errorWhileLoadingConfigValue: '[Hungergames] Error while loading config %s.yml, %s
+  threw a error - %s'
+errorWhileLoadingSpawns: '[Hungergames] Error while loading spawns, Spawn %s is missing
+  config value %s'
+errorWhileParsingItemStack: '[Hungergames] Error while parsing itemstack line %s,
+  %s'
+generatingChunks: '[Hungergames] Generating chunks.. %s'
+kitAlreadyExists: '[Hungergames] Kit %s already exists!'
+loadAbilitiesPackage: '[Hungergames] Adding abilities from plugin %s in package %s'
+loadCommandsPackage: '[Hungergames] Adding commands from plugin %s in package %s'
+loadedSpawnOutsideBorder: '[Hungergames] You may be interested to know that the spawn
+  %s is outside the border. Try looking at turning ''forcedCords'' in the main config
+  off'
+loadedSpawns: '[Hungergames] Loaded %s player spawns'
+loadedSpawnsConfig: '[Hungergames] Loaded %s spawns'
+loadingConfigFile: '[Hungergames] Loading config file %s.yml'
+loadingSpawns: '[Hungergames] Loading player spawns'
+loadSpawnsConfig: '[Hungergames] Loading the spawns'
+loadSpawnsConfigError: '[Hungergames] Error while loading spawns, spawn %s is missing
+  configuration %s'
+loadSpawnsConfigNotFound: '[Hungergames] Spawns config not found'
+mapConfigChangedBorderCloseInRate: '[Hungergames] Map config - Changed border close
+  in rate to %s'
+mapConfigChangedBorderSize: '[Hungergames] Map config - Changed border size to %s'
+mapConfigChangedRoundedBorder: '[Hungergames] Map config - Changed rounded border
+  to %s'
+mapConfigChangedTimeOfDay: '[Hungergames] Map config - Changed time of day game starts
+  as %s'
+mapConfigLoaded: '[Hungergames] Successfully loaded map config'
+mapConfigNotFound: '[Hungergames] Map config not found'
+mapConfigNowLoading: '[Hungergames] Now loading map config'
+metricsMessage: '[Hungergames] Dangit. Think you can opt back into metrics for me?
+  I do want to see how popular my plugin is..'
+mySqlClosing: '[%s] Disconnecting from MySQL database...'
+mySqlClosingError: '[%s] Error while closing the connection...'
+mySqlConnecting: '[%s] Connecting to MySQL database..'
+mySqlConnectingError: '[%s] Error while connecting to MySQL. %s'
+mySqlErrorLoadPlayer: '[PlayerJoinThread] Error while loading player %s - %s'
+noMapsFound: '[Hungergames] No maps found in %s'
+NowAttemptingToLoadAMap: '[Hungergames] Now attempting to load a map from the path
+  %s'
+restoredCommandsMissingConfigValue: '[Hungergames] Restored missing config ''%s''
+  for command ''%s'''
+shutdownCancelled: '[Hungergames] Shutdown event was cancelled by some plugin!'
+shuttingDown: '[Hungergames] Hungergames is now shutting the server down!'
+successfullyLoadedMap: '[Hungergames] Successfully loaded map %s'
+unrecognisedItemId: '[Hungergames] Failed to recognise item ID %s'

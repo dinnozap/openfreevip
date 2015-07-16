@@ -1,0 +1,22 @@
+broadcaster:
+  enabled: true
+  delay: 40
+arenaSignUpdater:
+  delay: 20
+prefix: '&4[&6Free&eVip&6&l1vs1&4]&r '
+duelInvitationTimeOut: 60
+checkForUpdates: true
+queue:
+  kick:
+    wasHitByPlayer: true
+    hitPlayer: true
+  commandBlacklist:
+  - sg
+  - spleef
+database:
+  type: sqlite
+  host: localhost
+  port: '3306'
+  user: dbuser
+  password: dbpassword
+  database: database-name

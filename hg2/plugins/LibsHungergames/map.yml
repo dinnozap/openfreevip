@@ -1,0 +1,10 @@
+MapPath: /home/minecraft2/Maps/
+UseMaps: false
+DeleteMap: true
+GenerateChunks: false
+GenerateSpawnPlatform: true
+SpawnPlatformSize: 30
+SpawnPlatformBlock:
+  ==: org.bukkit.inventory.ItemStack
+  type: GRASS
+GenerateChunksBackground: true

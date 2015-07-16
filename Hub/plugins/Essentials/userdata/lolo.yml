@@ -1,0 +1,23 @@
+socialspy: false
+uuid: dd259f2d-bfb6-3cc8-b2a7-3d18c84a5057
+timestamps:
+  login: 1436450390876
+  logout: 1436450396488
+ipAddress: 90.42.85.78
+lastlocation:
+  world: world
+  x: 524.5
+  y: 13.0
+  z: 495.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 522.3236871895015
+  y: 4.0
+  z: 460.53948370221866
+  yaw: 245.7014
+  pitch: 12.299936
+ban:
+  reason: 'Banni : Cheat'
+  timeout: 0

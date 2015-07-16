@@ -1,0 +1,36 @@
+uuid: 69aed4c8-45db-35f6-a37b-7a4ea4b965eb
+timestamps:
+  login: 1436600559554
+  logout: 1436601782342
+  kits:
+    tools: 1436512818598
+  lastteleport: 1436600890214
+  mute: 0
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 10880.717750303538
+  y: 66.0
+  z: 99916.8070755644
+  yaw: 246.98181
+  pitch: 17.69904
+logoutlocation:
+  world: world
+  x: 10892.029944988335
+  y: 70.0
+  z: 99918.49324897924
+  yaw: 146.66422
+  pitch: 6.1547213
+homes:
+  home:
+    world: world
+    x: 10891.260826013739
+    y: 70.0
+    z: 99918.50955000022
+    yaw: 95.73334
+    pitch: 29.243364
+afk: false
+ban:
+  reason: 'Banni : 3h Tu fait /spawn en plein combat+provocation'
+  timeout: 0
+muted: false

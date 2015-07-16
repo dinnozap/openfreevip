@@ -1,0 +1,683 @@
+Archer: {}
+Array:
+  arrayBeaconId: 138
+  arrayExpireTime: 30
+  arrayItemName: '&fArray'
+Backpacker:
+  backpackInventoryRows: 6
+  backpackItem: 130
+  backPackItemDescription: '&5&oDouble click this chest to open your backpack!'
+  backPackItemName: '&dBackpack'
+Beastmaster: {}
+Berserker:
+  berserkerLength: 30
+  extraDamageMob: 2
+  extraDamagePlayer: 4
+  giveConfusion: true
+Boxer:
+  boxerDamage: 4
+  reduceDamage: true
+Burrower:
+  addX: 50
+  addZ: 50
+  giveBackItemDelay: 300
+  groundBlockData: 0
+  groundBlockId: 20
+  itemData: 0
+  itemId: 341
+  messageNotHighEnough: '&cYou are too close to the void!'
+  mustBeHigherThen: 10
+  randomCords: true
+  roofBlockData: 0
+  roofBlockId: 20
+  roomHeight: 2
+  roomWidth: 1
+  teleportHeightRelativeToCurrentPos: false
+  teleportToY: 10
+  wallsBlockData: 0
+  wallsBlockId: 20
+Cannibal:
+  addHunger: 2
+  chance: 3
+  multiplier: 0
+  potionLength: 5
+CookieMonster:
+  delayInMillisecondsBetweenCookies: 500
+  oneChanceInWhatOfCookies: 4
+Crafter:
+  craftingStarItemId: 399
+  craftingStarItemName: '&fCrafting Star'
+  furnacePowderItemId: 377
+  furnacePowderItemName: '&fFurnace Powder'
+Cultivator: {}
+Demoman: {}
+Digger:
+  delayInTicks: 30
+  diggerBlock: 122
+  goDownY: 5
+  goSideways: 5
+  messageAfterPlaced: '&cYou placed the egg. Run!'
+  nameOfItem: Mining Mole
+Doctor:
+  heal: false
+  pairOfForcepsItemId: 359
+  pairOfForcepsItemName: '&fPair of Forceps'
+  toHeal: 5.0
+Dwarf:
+  cooldown: 30
+Endermage:
+  canWarpOtherEndermanges: true
+  cooldownMessage: '&cYou cannot use this just yet! Wait %s seconds!'
+  cooldownTime: 30
+  endermagePortalName: Endermage Portal
+  invincibleTicks: 100
+  nooneWarped: '&cYou didn''t get anyone! Cooldown still applies!'
+  warpedMessage: '&dWarped!\n&cYou are invincible for 5 seconds!\nPrepare to fight!'
+Fireman: {}
+Fisherman:
+  biteChanceWhereOneIsInstant: 0.05
+  chanceInOneOfJunk: 5
+  junk:
+  - ACTIVATOR_RAIL
+  - ANVIL
+  - APPLE
+  - ARROW
+  - BAKED_POTATO
+  - BEACON
+  - BED
+  - BIRCH_WOOD_STAIRS
+  - BLAZE_POWDER
+  - BLAZE_ROD
+  - BOAT
+  - BONE
+  - BOOK
+  - BOOK_AND_QUILL
+  - BOOKSHELF
+  - BOW
+  - BOWL
+  - BREAD
+  - BREWING_STAND_ITEM
+  - BRICK
+  - BRICK_STAIRS
+  - BROWN_MUSHROOM
+  - BUCKET
+  - CACTUS
+  - CAKE
+  - CARROT_ITEM
+  - CARROT_STICK
+  - CAULDRON_ITEM
+  - CHAINMAIL_BOOTS
+  - CHAINMAIL_CHESTPLATE
+  - CHAINMAIL_HELMET
+  - CHAINMAIL_LEGGINGS
+  - CHEST
+  - CLAY
+  - CLAY_BALL
+  - CLAY_BRICK
+  - COAL
+  - COAL_ORE
+  - COBBLE_WALL
+  - COBBLESTONE
+  - COBBLESTONE_STAIRS
+  - COCOA
+  - COMPASS
+  - COOKED_BEEF
+  - COOKED_CHICKEN
+  - COOKIE
+  - DAYLIGHT_DETECTOR
+  - DEAD_BUSH
+  - DETECTOR_RAIL
+  - DIAMOND
+  - DIAMOND_AXE
+  - DIAMOND_BLOCK
+  - DIAMOND_BOOTS
+  - DIAMOND_CHESTPLATE
+  - DIAMOND_HELMET
+  - DIAMOND_HOE
+  - DIAMOND_LEGGINGS
+  - DIAMOND_ORE
+  - DIAMOND_PICKAXE
+  - DIAMOND_SPADE
+  - DIAMOND_SWORD
+  - DIODE
+  - DIRT
+  - DISPENSER
+  - DOUBLE_STEP
+  - DRAGON_EGG
+  - DROPPER
+  - EGG
+  - EMERALD
+  - EMERALD_BLOCK
+  - EMERALD_ORE
+  - ENCHANTED_BOOK
+  - ENCHANTMENT_TABLE
+  - ENDER_CHEST
+  - ENDER_PEARL
+  - ENDER_STONE
+  - EXP_BOTTLE
+  - EXPLOSIVE_MINECART
+  - EYE_OF_ENDER
+  - FEATHER
+  - FENCE
+  - FENCE_GATE
+  - FERMENTED_SPIDER_EYE
+  - FIRE
+  - FIREBALL
+  - FIREWORK
+  - FIREWORK_CHARGE
+  - FISHING_ROD
+  - FLINT
+  - FLINT_AND_STEEL
+  - FLOWER_POT_ITEM
+  - FURNACE
+  - GHAST_TEAR
+  - GLASS
+  - GLASS_BOTTLE
+  - GLOWSTONE
+  - GLOWSTONE_DUST
+  - GOLD_AXE
+  - GOLD_BLOCK
+  - GOLD_BOOTS
+  - GOLD_CHESTPLATE
+  - GOLD_HELMET
+  - GOLD_HOE
+  - GOLD_INGOT
+  - GOLD_LEGGINGS
+  - GOLD_NUGGET
+  - GOLD_ORE
+  - GOLD_PICKAXE
+  - GOLD_PLATE
+  - GOLD_RECORD
+  - GOLD_SPADE
+  - GOLD_SWORD
+  - GOLDEN_APPLE
+  - GOLDEN_CARROT
+  - GRASS
+  - GRAVEL
+  - GREEN_RECORD
+  - GRILLED_PORK
+  - HOPPER
+  - HOPPER_MINECART
+  - HUGE_MUSHROOM_1
+  - HUGE_MUSHROOM_2
+  - ICE
+  - INK_SACK
+  - IRON_AXE
+  - IRON_BLOCK
+  - IRON_BOOTS
+  - IRON_CHESTPLATE
+  - IRON_DOOR
+  - IRON_FENCE
+  - IRON_HELMET
+  - IRON_HOE
+  - IRON_INGOT
+  - IRON_LEGGINGS
+  - IRON_ORE
+  - IRON_PICKAXE
+  - IRON_PLATE
+  - IRON_SPADE
+  - IRON_SWORD
+  - ITEM_FRAME
+  - JACK_O_LANTERN
+  - JUKEBOX
+  - JUNGLE_WOOD_STAIRS
+  - LADDER
+  - LAPIS_BLOCK
+  - LAPIS_ORE
+  - LAVA
+  - LAVA_BUCKET
+  - LEATHER
+  - LEATHER_BOOTS
+  - LEATHER_CHESTPLATE
+  - LEATHER_HELMET
+  - LEATHER_LEGGINGS
+  - LEAVES
+  - LEVER
+  - LOCKED_CHEST
+  - LOG
+  - LONG_GRASS
+  - MAGMA_CREAM
+  - MAP
+  - MELON
+  - MELON_BLOCK
+  - MELON_SEEDS
+  - MELON_STEM
+  - MILK_BUCKET
+  - MINECART
+  - MOSSY_COBBLESTONE
+  - MUSHROOM_SOUP
+  - MYCEL
+  - NETHER_BRICK_ITEM
+  - NETHER_BRICK_STAIRS
+  - NETHER_FENCE
+  - NETHER_STALK
+  - NETHER_STAR
+  - NETHER_WARTS
+  - NETHERRACK
+  - NOTE_BLOCK
+  - OBSIDIAN
+  - PAINTING
+  - PAPER
+  - PISTON_BASE
+  - PISTON_STICKY_BASE
+  - POISONOUS_POTATO
+  - PORK
+  - POTATO_ITEM
+  - POTION
+  - POWERED_MINECART
+  - POWERED_RAIL
+  - PUMPKIN
+  - PUMPKIN_PIE
+  - PUMPKIN_SEEDS
+  - PUMPKIN_STEM
+  - QUARTZ
+  - QUARTZ_BLOCK
+  - QUARTZ_ORE
+  - QUARTZ_STAIRS
+  - RAILS
+  - RAW_BEEF
+  - RAW_CHICKEN
+  - RECORD_10
+  - RECORD_11
+  - RECORD_12
+  - RECORD_3
+  - RECORD_4
+  - RECORD_5
+  - RECORD_6
+  - RECORD_7
+  - RECORD_8
+  - RECORD_9
+  - RED_MUSHROOM
+  - RED_ROSE
+  - REDSTONE
+  - REDSTONE_BLOCK
+  - REDSTONE_COMPARATOR
+  - REDSTONE_LAMP_OFF
+  - REDSTONE_ORE
+  - REDSTONE_TORCH_OFF
+  - REDSTONE_TORCH_ON
+  - REDSTONE_WIRE
+  - ROTTEN_FLESH
+  - SADDLE
+  - SAND
+  - SANDSTONE
+  - SANDSTONE_STAIRS
+  - SAPLING
+  - SEEDS
+  - SHEARS
+  - SIGN
+  - SIGN_POST
+  - SKULL_ITEM
+  - SLIME_BALL
+  - SMOOTH_BRICK
+  - SMOOTH_STAIRS
+  - SNOW
+  - SNOW_BALL
+  - SNOW_BLOCK
+  - SOIL
+  - SOUL_SAND
+  - SPECKLED_MELON
+  - SPIDER_EYE
+  - SPRUCE_WOOD_STAIRS
+  - STEP
+  - STICK
+  - STONE
+  - STONE_AXE
+  - STONE_BUTTON
+  - STONE_HOE
+  - STONE_PICKAXE
+  - STONE_PLATE
+  - STONE_SPADE
+  - STONE_SWORD
+  - STORAGE_MINECART
+  - STRING
+  - SUGAR
+  - SUGAR_CANE
+  - SULPHUR
+  - THIN_GLASS
+  - TNT
+  - TORCH
+  - TRAP_DOOR
+  - TRAPPED_CHEST
+  - TRIPWIRE
+  - TRIPWIRE_HOOK
+  - VINE
+  - WATCH
+  - WATER_BUCKET
+  - WATER_LILY
+  - WEB
+  - WHEAT
+  - WOOD
+  - WOOD_AXE
+  - WOOD_BUTTON
+  - WOOD_DOUBLE_STEP
+  - WOOD_HOE
+  - WOOD_PICKAXE
+  - WOOD_PLATE
+  - WOOD_SPADE
+  - WOOD_STAIRS
+  - WOOD_STEP
+  - WOOD_SWORD
+  - WOODEN_DOOR
+  - WOOL
+  - WORKBENCH
+  - YELLOW_FLOWER
+  landedJunk: '&9Oh dear! You hooked some junk!'
+Flash:
+  addMoreCooldownForLargeDistances: true
+  cooldownMessage: '&9You can use this again in %s seconds!'
+  flashItemName: '&fFlash'
+  flashOffItemId: 50
+  flashOnItemId: 76
+  giveWeakness: true
+  maxTeleportDistance: 200
+  normalCooldown: 30
+Forger: {}
+Gambler:
+  chanceHeal: 100
+  chanceHunger: 100
+  foodName: '&2Full hunger'
+  healthName: '&2Full health'
+  potionEffects:
+  - 1000 &cInstant_Death HARM 2 1000
+  - 1 &cSlowness_Effect SLOW 1200 1
+  - 1 &2Speed_Effect SPEED 1200 1
+  - 1 &cPoison_Effect POISON 200 0
+  - 1 &cHunger_Effect HUNGER 1200 1
+  - 1 &2Strength_Boost INCREASE_DAMAGE 1200 0
+  - 1 &cWeakness_Effect WEAKNESS 1200 1
+  - 1 &2Regeneration_Effect REGENERATION 1200 0
+  potionEffectsDurationsStack: true
+  randomItems:
+  - 250 &2Diamond_Helmet DIAMOND_HELMET 0 1
+  - 250 &2Diamond_Chestplate DIAMOND_CHESTPLATE 0 1
+  - 250 &2Diamond_Leggings DIAMOND_LEGGINGS 0 1
+  - 250 &2Diamond_Boots DIAMOND_BOOTS 0 1
+  - 250 &2Diamond_Sword DIAMOND_SWORD 0 1
+  whatYouWon: '&9You won: &b%s'
+Gravedigger: {}
+Hermit:
+  failedToFindLocation: '&aSo sorry! I was unable to find a location for you to spawn
+    at!'
+  timesToLoop: 100
+Hunter: {}
+JackHammer:
+  cooldown: 30
+  cooldownMessage: '&c%s seconds until you can use jackhammer again!'
+  hammerName: Jack Hammer
+  ticksBetweenBreaks: 20
+  usesBeforeCooldown: 5
+Jumper:
+  generatePlatform: true
+Kangaroo:
+  jumpHeight: 4.0
+  kangarooBootsName: Kangaroo Fireworks
+Kaya:
+  distanceFromBlocks: 3
+  lowerHeightFromBlocks: -1
+  upperHeightFromBlocks: 1
+Launcher:
+  launcherBlockName: '&fLauncher Block'
+  launcherStrength: 1.0
+Lumberjack: {}
+Madman:
+  radius: 20
+  rateOfMadness: 5
+Milkman:
+  maxUses: 5
+  milkbucketName: Milkman's Bucket
+  milkBucketRanOut: '&9Your milk bucket has run out of uses!'
+  milkmanMessage: I am the milkman, my milk is delicious
+  potionEffects:
+  - REGENERATION 900 0
+  - FIRE_RESISTANCE 900 0
+  - SPEED 900 0
+  usedMilk: '&aYou have %s uses left!'
+Monk:
+  cooldown: 15
+  monkCooldownMessage: '&9You may monk them again in %s seconds!'
+  monkedMessage: '&9Monked!'
+  monkItemId: 369
+  monkItemName: '&fMonk Staff'
+  sendThroughInventory: true
+Monster:
+  completelyUntargetable: false
+Necro: {}
+Phantom:
+  cooldownMessage: '&cYou cannot use that just yet! %s seconds of cooldown remaining!'
+  cooldownTime: 60
+  doubleFallDamage: true
+  flightLeftMessage: '&cYou have %s of flight left!'
+  flightWoreOff: '&cYour flight disappeared!'
+  giveFlightArmor: true
+  phantomFeatherId: 288
+  phantomFeatherName: Condor's Feather
+  secondsOfFlight: 5
+Pickpocket:
+  attemptedToPickpocketWhilePickpocketing: '&9Cannot touch that!'
+  attemptedToStealHotbar: '&9Thats their hotbar!'
+  cooldown: 30
+  cooldownThieving: '&9You may not pickpocket again for %s seconds!'
+  maxItems: 4
+  pickpocketedMax: '&9You have pickpocketed your max!'
+  stealHotbar: false
+  thievingStickItemId: 369
+  thievingStickItemName: '&fThieving Stick'
+Poseidon:
+  potionMultiplier: 0
+Pyro:
+  fireballExplosiveMultiplier: 1.5
+Reaper:
+  reaperEffectLastsSeconds: 6
+  reaperItemName: Death Scythe
+Rider:
+  horseHealth: 50
+  horseName: '%s''s mighty steed'
+  jumpStrength: 1.0
+  modifyHorseStats: true
+  nameHorse: true
+  preventOthersFromUsing: true
+  runSpeed: 1.0
+  saddleName: 'Summon: Mighty Steed'
+Salvager: {}
+Santa:
+  chanceOutOfAHundredForNaughtyKitToBeViable: 70.0
+  displayMessageOnOpen: true
+  dontGivePresentFor:
+  - Santa
+  - Barbarian
+  - Crafter
+  - Doctor
+  - Endermage
+  - Flash
+  - Monk
+  - Pickpocket
+  - Pyro
+  - Reaper
+  - Seeker
+  messageOnPresentOpen: '&4M&fe&4r&fr&4y&f C&4h&fr&4i&fs&4t&fm&4a&fs&4!'
+  naughtyList:
+  - Urgal
+  - Chemist
+  - Digger
+  - Grandpa
+  - Jumper
+  presentEndingDataValue: 15
+  presentID: 35
+  presentLore:
+  - '&5I wish you &ajoy &fall though your holidays.'
+  - '&5I wish you &agood luck &fthat &nforever &r&fstays.'
+  - '&5I wish you &athe love of family and friends.'
+  - '&5I wish you &ahappy days the never ends'
+  - '&6Merry holidays and a happy new years!'
+  - '&6&l- You smell'
+  presentName: '&f&oPresent for kit - %s'
+  presentStartingDataValue: 0
+  preventPlacing: true
+  specialPresent: true
+  timeBetweenPresents: 60
+Scorcher:
+  blazeName: Scorchers Igniter
+  bootsName: Scorchers Boots
+Scout:
+  cancelFall: true
+  givePotionsEverySoSeconds: 600
+Seeker:
+  cooldown: 120
+  doCircle: true
+  seekerItemId: 381
+  seekerItemName: '&fGhost Eye'
+  xrayRadius: 10
+Snail:
+  chance: 3
+  length: 5
+  multiplier: 1
+Spectre:
+  addInvisToSpectre: true
+  cooldownMessage: '&9You can use this again in %s seconds!'
+  cooldownTime: 180
+  invisLength: 20
+  playSound: true
+  soundName: SPLASH
+  spectreItemName: '&fSpectre Dust'
+  spectreOffItemId: 353
+  spectreOnItemId: 331
+Spiderman:
+  cooldown: 30
+  cooldownMessage: '&9Your web shooters havn''t refilled yet! Wait %s seconds!'
+  maxBallsThrown: 3
+Stomper:
+  changeStomperFallDamage: true
+  reduceStompDamageByDistance: true
+  stompedMessage: '%1$2s was stomped by %2$2s'
+  stomperBlocksFall: true
+  stomperFallDamage: 4
+Summoner: {}
+Switcher:
+  cooldownLength: 10
+  cooldownMessage: '&9You can throw another snowball in %s seconds'
+Tank:
+  explosionSize: 2.0
+Tarzan:
+  scanDownRadius: 5
+  scanSidewaysRadius: 5
+  scanUpRadius: 5
+Thor:
+  cooldown: 5
+  cooldownMessage: '&cYou may not do that at this time'
+  doNetherackAndFire: true
+  protectThorer: true
+  thorItemId: 271
+Tracker:
+  commandName: track
+  howToUseMessage: '&cUse /lock <Target Player>'
+  lostTargetMessage: '&6Lost target, Retargetting'
+  noLongerLockedMessage: '&6No longer locked on target'
+  notATracker: '&cYou are not kit Tracker!'
+  trackerTrackingMessage: '&6Compass pointing at %s who is %s blocks away at location
+    (%s, %s, %s)'
+Trapper:
+  immuneToOwnTraps: false
+  trapperItem: 287
+  trapperItemName: Trapper's String
+Turtle:
+  needToBlock: true
+Vampire:
+  healsFromAnimals: 3
+  healsFromMonsters: 5
+  healsFromPlayers: 6
+  surplusHealthRequiredForPotion: 5
+Viking: {}
+Viper:
+  chance: 3
+  length: 5
+  multiplier: 0
+Vulture:
+  betCommandName: bet
+  betPaidOff: '&cYour bet on %s paid off!'
+  betVictimAlreadyBetOn: '&c%s already has a vulture betting on him!'
+  betVictimAlreadyBettingOn: '&cYou are already betting on %s!'
+  betVictimBetPlaced: '&cBet placed! If %s dies next. You get their items!'
+  betVictimCantBetYourself: '&cYou cannot bet on yourself!'
+  betVictimCurrentlyBetting: '&cYou currently are betting on %s!'
+  betVictimIsDead: '&cThe player is already dead!'
+  betVictimNoPlayerArgs: '&cYou didn''t provide a player name!'
+  betVictimNotFound: '&cPlayer not found!'
+  betVictimNotVulture: '&eYou are not a vulture!'
+  bodyCommandBodyFound: '&eFound the body of %s!\nYou adjust your compass to point
+    at the location!\nCords: %s, %s, %s'
+  bodyCommandBodyNotFound: '&eYou look through your notebooks but you have no logs
+    of that player!'
+  bodyCommandName: body
+  bodyCommandNoArgs: '&cYou need to define a player name!'
+  bodyCommandNotVulture: '&eYou are not a vulture!'
+  bookName: Death Note
+  damageCauses:
+  - BLOCK_EXPLOSION Block explosion
+  - CONTACT Cactus
+  - CUSTOM Unknown
+  - DROWNING Drowning
+  - ENTITY_ATTACK Entity Attack
+  - ENTITY_EXPLOSION Explosion
+  - FALL Fall
+  - FALLING_BLOCK Falling Block
+  - FIRE fire
+  - FIRE_TICK Fire
+  - LAVA Lava
+  - LIGHTNING Lightning
+  - MAGIC Magic
+  - MELTING Melting
+  - NONE None
+  - POISON Poison
+  - PROJECTILE Projectile
+  - STARVATION Starvation
+  - SUFFOCATION Suffocation
+  - SUICIDE Suicide
+  - THORNS Thorns
+  - VOID Void
+  - WITHER Wither
+  killString: Time &f-&c Killed &f-&9 Cause &f-&a Killer &f-&e Location
+  killStringLayout: '%Time% ago &f-&c %Killed% &f-&9 %Cause% &f-&a %Killer% &f-&e
+    %Location%'
+  locationLayout: (%s, %s, %s)
+  noKiller: None
+  noKillsYet: '&9There are no kills yet! Care to be the first?'
+Warder:
+  cooldownMessage: '&9You can use this again in %s seconds'
+  cooldownSeconds: 60
+  fieldExistsFor: 5
+  itemId: 340
+  portalsHeight: 2
+  portalsWidth: 3
+  potionEffects:
+  - SPEED 100 0
+  - DAMAGE_RESISTANCE 600 0
+  warderBookName: '&fTome of Protection'
+  warmupTicks: 10
+Werewolf:
+  potionEffectsDuringDay:
+  - WEAKNESS 0
+  potionEffectsDuringNight:
+  - SPEED 0
+  - INCREASE_DAMAGE 0
+Worm:
+  dirtPreventsFallDamage: true
+Analyzer:
+  alwaysDisplayInfo: false
+  countSoup: false
+  informationItem: '&fItemstack &e%s&f has &e%s&f items'
+  informationMob: '&fMob &e%s&f has &e%s&f health'
+  informationPlayer: '&e%s&f has Health: &e%s&f, Hunger:&e %s&f, Armor: &e%s&f, Kit:
+    &e%s'
+  informationPlayerSoup: '&e%s&f has Health: &e%s&f, Hunger:&e %s&f, Armor: &e%s&f,
+    Kit: &e%s&f, Soups: &e%s'
+  rangeToScan: 100
+  ticksPerEntityCheck: 10
+Chameleon:
+  breakDisguiseOnAttacked: true
+  breakDisguiseOnAttackPlayer: true
+  chameleonBreakDisguise: '&aYou broke out of your disguise!'
+  chameleonDisguiseBroken: '&aYour disguise was broken!'
+  chameleonNowDisguised: '&aNow disguised as a %s!'
+  disguiseAsAnimal: true
+  disguiseAsMonster: true

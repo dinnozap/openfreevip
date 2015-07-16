@@ -1,0 +1,115 @@
+'0':
+  uniqueId: 8c581819-2669-475b-ad3d-74b61a754f6e
+  name: Bouffe
+  world: world
+  x: 10222
+  y: 64
+  z: 99906
+  type: admin
+  object: villager
+  uuid: b96e6ee0-1b38-4b70-f569-0ae4359b36c7
+  prof: 1
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: COBBLESTONE
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        damage: 1
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 7
+'1':
+  uniqueId: f65dd8c7-e447-42fc-a70a-261ca3c8c876
+  name: Experience
+  world: world
+  x: 10218
+  y: 64
+  z: 99906
+  type: admin
+  object: villager
+  uuid: 1bb131a2-455d-5384-8502-731f5d84b41d
+  prof: 0
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: EXP_BOTTLE
+        amount: 64
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: EXP_BOTTLE
+        amount: 32
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            KNOCKBACK: 2
+'2':
+  uniqueId: a9ebf185-43d4-4a9b-b6d7-7c84a84cc4a8
+  name: Guerrier
+  world: world
+  x: 10214
+  y: 64
+  z: 99906
+  type: admin
+  object: villager
+  uuid: 8e0a9b96-2b6a-29a5-73b9-85937a94709e
+  prof: 2
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 64
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: SOUL_SAND
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BOOTS
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: SOUL_SAND
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE

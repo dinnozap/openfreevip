@@ -1,0 +1,61 @@
+#message when a player tries to connect to offline server
+offline-message: '&cLe serveur se redémarre !'
+show-offline-message: true
+#time between pings/signupdate in seconds
+interval: 5
+#signs updates per tick
+sign-updates: 20
+#connect timeout
+timeout: 1500
+#cooldown for being teleported (milliseconds)
+cooldown: 2000
+#debugmode
+debug: false
+#specify your servers here
+servers:
+  mc2:
+    address: '127.0.0.1:25567'
+    displayname: '&cHunger Games #1'
+  mc3:
+    address: '127.0.0.1:25570'
+    displayname: '&aHunger Games #2'
+
+
+#placeholders:
+#%numpl% = online players
+#%maxpl% = max players
+#%motd% = motd
+#%displayname% = displayname
+#%isonline% whether the server is online or offline
+layouts:
+  #you can change the default layout but don't delete it!
+  default:
+    teleport: true
+    layout:
+      - '&bTeleport to:'
+      - '%motd%'
+      - '&f&l%numpl%/%maxpl%'
+      - '%isonline%'
+    online: '&aOnline'
+    offline: '&cOffline'
+    offline-int: '-'
+  info:
+    teleport: false
+    layout:
+      - '%displayname%'
+      - '&c%numpl%&a/&c%maxpl%'
+      - '&6&fInfosign'
+      - ''
+    online: 'Online'
+    offline: 'Offline'
+    offline-int: '-'
+  game:
+    teleport: true
+    layout:
+      - '&n&fPvP-Match'
+      - '%motd%'
+      - '&1%numpl%&a/&1%maxpl%'
+      - '%isonline%'
+    online: '&a+++'
+    offline: '&c---'
+    offline-int: '-'

@@ -1,0 +1,21 @@
+uuid: acfb2488-ab2c-3585-9929-0f950e3bfc8d
+timestamps:
+  login: 1436514867054
+  logout: 1436516642880
+  lastteleport: 1436516471685
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world_the_end
+  x: 98.30000001192093
+  y: 49.0
+  z: 0.3892433606413365
+  yaw: 99.450005
+  pitch: 2.5499995
+logoutlocation:
+  world: world_the_end
+  x: 90.34215432801284
+  y: 57.0
+  z: 0.30000001192092735
+  yaw: 272.25104
+  pitch: 37.950047
+afk: false
