@@ -170,13 +170,13 @@ item-merger:
 # -- NOTE: The below 'remove' section applies to this remover!
 # -- NOTE: Putting the interval to low will cause issues!
 auto-removal:
-  broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
+  broadcast-message: '&6[OpenFreeVip] &aRemoved +RemoveAmount Entities!'
   broadcast-warning: true
   enable-scheduler: true
   autoremoval-interval: 460
   warnings:
-        - time:400 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!
-        - time:440 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!
+        - time:400 msg:&4[OpenFreeVip] &cWarning Ground items will be removed in &7+remaining &cseconds!
+        - time:440 msg:&4[OpenFreeVip] &cWarning Ground items will be removed in &7+remaining &cseconds!
   
 #What should be removed during an auto-removal
 remove:
